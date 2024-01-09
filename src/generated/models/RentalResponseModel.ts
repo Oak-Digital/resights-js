@@ -1,0 +1,77 @@
+/* generated using openapi-typescript-codegen -- do no edit */
+/* istanbul ignore file */
+/* tslint:disable */
+/* eslint-disable */
+import type { ObservationProcessEnum } from './ObservationProcessEnum';
+import type { ObservationTypeEnum } from './ObservationTypeEnum';
+import type { RentalAddress } from './RentalAddress';
+import type { RentalAddressUnitMatch } from './RentalAddressUnitMatch';
+import type { RentalUnit } from './RentalUnit';
+import type { RentCategoryEnum } from './RentCategoryEnum';
+import type { resights__core__models__rental__rental__ElasticSearchCoordinateModel } from './resights__core__models__rental__rental__ElasticSearchCoordinateModel';
+import type { UnitCategoryEnum } from './UnitCategoryEnum';
+import type { UnitTypeEnum } from './UnitTypeEnum';
+export type RentalResponseModel = {
+    pk: string;
+    id: string;
+    unit_internal_id: string;
+    source: string;
+    href?: string;
+    title?: string;
+    description?: string;
+    unit_type?: UnitTypeEnum;
+    unit_category?: UnitCategoryEnum;
+    observation_type?: ObservationTypeEnum;
+    observation_process?: ObservationProcessEnum;
+    rent_category?: RentCategoryEnum;
+    rent_regulation?: string;
+    rent_regulation_text?: string;
+    rent_regulation_description?: string;
+    rooms?: number;
+    area: number;
+    area_category: number;
+    rent: number;
+    rent_net?: number;
+    rent_gross?: number;
+    rent_net_monthly?: number;
+    rent_gross_monthly?: number;
+    utilities_estimate?: number;
+    rent_net_estimate?: number;
+    rent_gross_estimate?: number;
+    deposit?: number;
+    deposit_months?: number;
+    prepaid_rent?: number;
+    prepaid_rent_months?: number;
+    utilities?: number;
+    utilities_monthly?: number;
+    heat_monthly?: number;
+    water_monthly?: number;
+    power_monthly?: number;
+    other_utilities_monthly?: number;
+    address_name: string;
+    address?: RentalAddress;
+    unit_id?: string;
+    building_id?: string;
+    bfe_number?: string;
+    unit?: RentalUnit;
+    matches: Array<RentalAddressUnitMatch>;
+    number_addresses?: number;
+    number_units?: number;
+    active: boolean;
+    available_from?: string;
+    lease_start_date?: string;
+    created_at: string;
+    updated_at?: string;
+    deleted_at?: string;
+    removed_at?: string;
+    period_from?: string;
+    period_to?: string;
+    organisation_id?: string;
+    contract?: string;
+    lng?: number;
+    lat?: number;
+    coordinate?: resights__core__models__rental__rental__ElasticSearchCoordinateModel;
+    coordinate_anonymous?: resights__core__models__rental__rental__ElasticSearchCoordinateModel;
+    internal_note?: string;
+};
+
