@@ -5,4 +5,9 @@
 /**
  * An enumeration.
  */
-export type VirksomhedRolleEnum = 'debitor' | 'kreditor' | 'ejer' | 'paataleberettiget' | 'underpanthaver';
+export type VirksomhedRolleEnum =
+  | 'debitor'
+  | 'kreditor'
+  | 'ejer'
+  | 'paataleberettiget'
+  | 'underpanthaver';

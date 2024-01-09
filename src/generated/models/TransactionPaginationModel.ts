@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type TransactionPaginationModel = {
-    pages: number;
-    count: number;
-    page_size: number;
+  pages: number;
+  count: number;
+  page_size: number;
 };
-

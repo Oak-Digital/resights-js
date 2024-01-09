@@ -5,7 +5,6 @@
 import type { TransactionPaginationModel } from './TransactionPaginationModel';
 import type { TransactionProspectusResponseModel } from './TransactionProspectusResponseModel';
 export type TransactionResponseWrapper_TransactionProspectusResponseModel_ = {
-    data: Array<TransactionProspectusResponseModel>;
-    pagination: TransactionPaginationModel;
+  data: Array<TransactionProspectusResponseModel>;
+  pagination: TransactionPaginationModel;
 };
-

@@ -5,4 +5,7 @@
 /**
  * An enumeration.
  */
-export type TransactionAdvisorRoleEnum = 'BUYERS_ADVISOR' | 'SELLERS_ADVISOR' | 'UNKNOWN';
+export type TransactionAdvisorRoleEnum =
+  | 'BUYERS_ADVISOR'
+  | 'SELLERS_ADVISOR'
+  | 'UNKNOWN';

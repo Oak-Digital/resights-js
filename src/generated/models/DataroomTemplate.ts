@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type DataroomTemplate = {
-    id: string;
-    name: string;
-    template_info: string;
+  id: string;
+  name: string;
+  template_info: string;
 };
-

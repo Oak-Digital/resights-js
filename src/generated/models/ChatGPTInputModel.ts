@@ -3,6 +3,5 @@
 /* tslint:disable */
 /* eslint-disable */
 export type ChatGPTInputModel = {
-    prompt: string;
+  prompt: string;
 };
-

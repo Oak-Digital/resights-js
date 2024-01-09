@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type EconomicsLayoutModel = {
-    self?: string;
-    layout_number: number;
+  self?: string;
+  layout_number: number;
 };
-

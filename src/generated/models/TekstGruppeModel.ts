@@ -3,13 +3,12 @@
 /* tslint:disable */
 /* eslint-disable */
 export type TekstGruppeModel = {
-    /**
-     * Overskrift
-     */
-    Overskrift?: string;
-    /**
-     * Afsnit
-     */
-    Afsnit: string;
+  /**
+   * Overskrift
+   */
+  Overskrift?: string;
+  /**
+   * Afsnit
+   */
+  Afsnit: string;
 };
-

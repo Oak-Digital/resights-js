@@ -7,5 +7,6 @@ import type { DataroomContentProperty_DataroomDocumentOut_ } from './DataroomCon
 /**
  * Notice that this is a polymorphic collection of a property, or a company
  */
-export type DataroomContentCollection_DataroomDocumentOut_ = (DataroomContentCompany_DataroomDocumentOut_ | DataroomContentProperty_DataroomDocumentOut_);
-
+export type DataroomContentCollection_DataroomDocumentOut_ =
+  | DataroomContentCompany_DataroomDocumentOut_
+  | DataroomContentProperty_DataroomDocumentOut_;

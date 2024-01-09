@@ -3,10 +3,9 @@
 /* tslint:disable */
 /* eslint-disable */
 export type TransactionSourceResponse = {
-    id: string;
-    name: string;
-    title: string;
-    href: string;
-    date: string;
+  id: string;
+  name: string;
+  title: string;
+  href: string;
+  date: string;
 };
-

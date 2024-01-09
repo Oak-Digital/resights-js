@@ -17,7 +17,20 @@ import type { RelatedToResponse } from './RelatedToResponse';
 import type { ResidesAtResponse } from './ResidesAtResponse';
 import type { StakeholderResponse } from './StakeholderResponse';
 export type CVRNetworkResponse = {
-    nodes: Array<BaseNodeResponse>;
-    edges: Array<(LegalOwnershipResponse | DerivedLegalOwnershipResponse | RealOwnershipResponse | DerivedRealOwnershipResponse | AuditsResponse | CEOResponse | DirectorResponse | FounderResponse | BoardMemberResponse | LiquidatorResponse | StakeholderResponse | ResidesAtResponse | RelatedToResponse)>;
+  nodes: Array<BaseNodeResponse>;
+  edges: Array<
+    | LegalOwnershipResponse
+    | DerivedLegalOwnershipResponse
+    | RealOwnershipResponse
+    | DerivedRealOwnershipResponse
+    | AuditsResponse
+    | CEOResponse
+    | DirectorResponse
+    | FounderResponse
+    | BoardMemberResponse
+    | LiquidatorResponse
+    | StakeholderResponse
+    | ResidesAtResponse
+    | RelatedToResponse
+  >;
 };
-

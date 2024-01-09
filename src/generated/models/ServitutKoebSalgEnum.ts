@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type ServitutKoebSalgEnum = 'Andet' | 'Forkøbsret' | 'Salgsforhold' | 'Tilbagekøbsret/hjemfaldspligt';
+export type ServitutKoebSalgEnum =
+  | 'Andet'
+  | 'Forkøbsret'
+  | 'Salgsforhold'
+  | 'Tilbagekøbsret/hjemfaldspligt';

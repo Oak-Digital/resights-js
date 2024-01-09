@@ -4,7 +4,6 @@
 /* eslint-disable */
 import type { GeoDistanceValue } from './GeoDistanceValue';
 export type GeoDistanceQ = {
-    field: string;
-    value: GeoDistanceValue;
+  field: string;
+  value: GeoDistanceValue;
 };
-

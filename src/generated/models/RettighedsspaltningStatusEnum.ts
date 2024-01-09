@@ -5,4 +5,10 @@
 /**
  * An enumeration.
  */
-export type RettighedsspaltningStatusEnum = 'Prioritetsspaltet' | 'PrioritetsspaltetSampant' | 'Fristspaltet' | 'FristspaltetSampant' | 'Udvidet' | 'Relakseret';
+export type RettighedsspaltningStatusEnum =
+  | 'Prioritetsspaltet'
+  | 'PrioritetsspaltetSampant'
+  | 'Fristspaltet'
+  | 'FristspaltetSampant'
+  | 'Udvidet'
+  | 'Relakseret';

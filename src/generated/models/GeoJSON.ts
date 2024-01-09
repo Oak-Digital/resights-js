@@ -4,7 +4,6 @@
 /* eslint-disable */
 import type { GeoJSONTypes } from './GeoJSONTypes';
 export type GeoJSON = {
-    type: GeoJSONTypes;
-    coordinates: Array<number>;
+  type: GeoJSONTypes;
+  coordinates: Array<number>;
 };
-

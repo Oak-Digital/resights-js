@@ -5,4 +5,10 @@
 /**
  * An enumeration.
  */
-export type GraphNodeEnum = 'COMPANY' | 'MEMBER' | 'OTHER' | 'PROPERTY' | 'ADDRESS' | 'ACCESS_ADDRESS';
+export type GraphNodeEnum =
+  | 'COMPANY'
+  | 'MEMBER'
+  | 'OTHER'
+  | 'PROPERTY'
+  | 'ADDRESS'
+  | 'ACCESS_ADDRESS';

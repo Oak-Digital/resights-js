@@ -3,13 +3,12 @@
 /* tslint:disable */
 /* eslint-disable */
 export type BeloebModel = {
-    /**
-     * Beloeb med valuta. Kursoplysninger angives i TinglysningAfgift.
-     */
-    Beloeb: number;
-    /**
-     * ISO 4217 valutakode.
-     */
-    Valuta: string;
+  /**
+   * Beloeb med valuta. Kursoplysninger angives i TinglysningAfgift.
+   */
+  Beloeb: number;
+  /**
+   * ISO 4217 valutakode.
+   */
+  Valuta: string;
 };
-

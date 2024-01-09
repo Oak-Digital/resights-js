@@ -5,4 +5,9 @@
 /**
  * An enumeration.
  */
-export type TransactionAssetStageEnum = 'DONE' | 'EXISTING' | 'LAND' | 'NEW_DEVELOPMENT' | 'UNDER_CONSTRUCTION';
+export type TransactionAssetStageEnum =
+  | 'DONE'
+  | 'EXISTING'
+  | 'LAND'
+  | 'NEW_DEVELOPMENT'
+  | 'UNDER_CONSTRUCTION';

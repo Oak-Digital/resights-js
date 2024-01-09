@@ -5,10 +5,9 @@
 import type { DataroomCollectionType } from './DataroomCollectionType';
 import type { DataroomDocumentOut } from './DataroomDocumentOut';
 export type DataroomContentProperty_DataroomDocumentOut_ = {
-    bfe_number: number;
-    municipality_code: number;
-    property_number: number;
-    documents: Array<DataroomDocumentOut>;
-    type?: DataroomCollectionType;
+  bfe_number: number;
+  municipality_code: number;
+  property_number: number;
+  documents: Array<DataroomDocumentOut>;
+  type?: DataroomCollectionType;
 };
-

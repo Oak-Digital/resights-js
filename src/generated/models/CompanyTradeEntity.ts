@@ -4,9 +4,8 @@
 /* eslint-disable */
 import type { CVRUnitTypeEnum } from './CVRUnitTypeEnum';
 export type CompanyTradeEntity = {
-    id: number;
-    name: string;
-    type: CVRUnitTypeEnum;
-    share: number;
+  id: number;
+  name: string;
+  type: CVRUnitTypeEnum;
+  share: number;
 };
-

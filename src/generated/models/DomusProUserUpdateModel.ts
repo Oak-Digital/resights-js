@@ -4,8 +4,7 @@
 /* eslint-disable */
 import type { DomusProUserRoleEnum } from './DomusProUserRoleEnum';
 export type DomusProUserUpdateModel = {
-    name?: string;
-    password?: string;
-    roles?: Array<DomusProUserRoleEnum>;
+  name?: string;
+  password?: string;
+  roles?: Array<DomusProUserRoleEnum>;
 };
-

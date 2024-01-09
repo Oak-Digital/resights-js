@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type TransactionActorTypeEnum = 'ANDELSBOLIG' | 'COMPANY' | 'PERSON' | 'PUBLIC';
+export type TransactionActorTypeEnum =
+  | 'ANDELSBOLIG'
+  | 'COMPANY'
+  | 'PERSON'
+  | 'PUBLIC';

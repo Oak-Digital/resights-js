@@ -9,71 +9,70 @@ import type { EJFOwnerchangeTypeEnum } from './EJFOwnerchangeTypeEnum';
 import type { EJFOwnershipResponse } from './EJFOwnershipResponse';
 import type { EJFStatusEnum } from './EJFStatusEnum';
 export type EJFOwnershipChangeResponse = {
-    /**
-     * Persistent unik nøgle.
-     */
-    id: string;
-    namespace: string;
-    /**
-     * Angivelse af hvor et forvaltningsobjekt er i sin livscyklus.
-     */
-    status?: EJFStatusEnum;
-    /**
-     * Den manuelle eller IT-understøttede proces hvori forretningsområdet håndterer hændelsen.
-     */
-    business_process?: EJFBusinessProcessEnum;
-    /**
-     * Den del af den offentlige forretning der håndterer hændelsen og derved udvirker ændringen i data.
-     */
-    business_area?: EJFBusinessAreaEnum;
-    /**
-     * Den begivenhed i virkeligheden som udløste ændringen i data.
-     */
-    business_event?: EJFBusinessEventEnum;
-    /**
-     * Tidspunktet hvor registreringen er foretaget.
-     */
-    registration_from: string;
-    /**
-     * Tidspunktet hvor en ny registrering er foretaget på objektet, og hvor denne version således ikke længere er den seneste.
-     */
-    registration_to?: string;
-    /**
-     * Den aktør der har foretaget registreringen.
-     */
-    registration_actor: string;
-    /**
-     * Tidspunktet hvorfra objektet har virkning.
-     */
-    effect_from: string;
-    /**
-     * Tidspunktet hvor objektets virkning ophører.
-     */
-    effect_to?: string;
-    /**
-     * Den aktør der har afstedkommet objektets virkning.
-     */
-    effect_actor: string;
-    /**
-     * Persistent unik nøgle for den Ejerskabshændelse behandling eller Person/Virksomhedshændelse behandling, som objektet senest er ændret ved.
-     */
-    case_id: string;
-    /**
-     * Angiver om andelen er aftaget eller modtaget.
-     */
-    type: EJFOwnerchangeTypeEnum;
-    /**
-     * Aftaget eller modtaget andel
-     */
-    share?: number;
-    /**
-     * Aftaget eller modtaget tæller
-     */
-    numerator?: number;
-    /**
-     * Aftaget eller modtaget nævner
-     */
-    denominator?: number;
-    ownership?: EJFOwnershipResponse;
+  /**
+   * Persistent unik nøgle.
+   */
+  id: string;
+  namespace: string;
+  /**
+   * Angivelse af hvor et forvaltningsobjekt er i sin livscyklus.
+   */
+  status?: EJFStatusEnum;
+  /**
+   * Den manuelle eller IT-understøttede proces hvori forretningsområdet håndterer hændelsen.
+   */
+  business_process?: EJFBusinessProcessEnum;
+  /**
+   * Den del af den offentlige forretning der håndterer hændelsen og derved udvirker ændringen i data.
+   */
+  business_area?: EJFBusinessAreaEnum;
+  /**
+   * Den begivenhed i virkeligheden som udløste ændringen i data.
+   */
+  business_event?: EJFBusinessEventEnum;
+  /**
+   * Tidspunktet hvor registreringen er foretaget.
+   */
+  registration_from: string;
+  /**
+   * Tidspunktet hvor en ny registrering er foretaget på objektet, og hvor denne version således ikke længere er den seneste.
+   */
+  registration_to?: string;
+  /**
+   * Den aktør der har foretaget registreringen.
+   */
+  registration_actor: string;
+  /**
+   * Tidspunktet hvorfra objektet har virkning.
+   */
+  effect_from: string;
+  /**
+   * Tidspunktet hvor objektets virkning ophører.
+   */
+  effect_to?: string;
+  /**
+   * Den aktør der har afstedkommet objektets virkning.
+   */
+  effect_actor: string;
+  /**
+   * Persistent unik nøgle for den Ejerskabshændelse behandling eller Person/Virksomhedshændelse behandling, som objektet senest er ændret ved.
+   */
+  case_id: string;
+  /**
+   * Angiver om andelen er aftaget eller modtaget.
+   */
+  type: EJFOwnerchangeTypeEnum;
+  /**
+   * Aftaget eller modtaget andel
+   */
+  share?: number;
+  /**
+   * Aftaget eller modtaget tæller
+   */
+  numerator?: number;
+  /**
+   * Aftaget eller modtaget nævner
+   */
+  denominator?: number;
+  ownership?: EJFOwnershipResponse;
 };
-

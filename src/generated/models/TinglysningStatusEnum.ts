@@ -5,4 +5,9 @@
 /**
  * An enumeration.
  */
-export type TinglysningStatusEnum = 'Tinglyst' | 'Tinglyst med frist' | 'Afvist' | 'Udslettet' | 'Endeligt indført';
+export type TinglysningStatusEnum =
+  | 'Tinglyst'
+  | 'Tinglyst med frist'
+  | 'Afvist'
+  | 'Udslettet'
+  | 'Endeligt indført';

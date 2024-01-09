@@ -5,4 +5,11 @@
 /**
  * An enumeration.
  */
-export type CoordinateReferenceSystem = 3857 | 4093 | 4094 | 4095 | 4096 | 4326 | 25832;
+export type CoordinateReferenceSystem =
+  | 3857
+  | 4093
+  | 4094
+  | 4095
+  | 4096
+  | 4326
+  | 25832;

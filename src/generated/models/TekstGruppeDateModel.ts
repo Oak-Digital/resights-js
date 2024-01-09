@@ -4,17 +4,16 @@
 /* eslint-disable */
 import type { UdledtBilagModel } from './UdledtBilagModel';
 export type TekstGruppeDateModel = {
-    /**
-     * Afsnit
-     */
-    Afsnit?: string;
-    /**
-     * Dato
-     */
-    Dato?: string;
-    /**
-     * Liste af ID eller filnavn for eventuelle bilag og akter i afsnitteksten
-     */
-    BilagSamling?: Array<UdledtBilagModel>;
+  /**
+   * Afsnit
+   */
+  Afsnit?: string;
+  /**
+   * Dato
+   */
+  Dato?: string;
+  /**
+   * Liste af ID eller filnavn for eventuelle bilag og akter i afsnitteksten
+   */
+  BilagSamling?: Array<UdledtBilagModel>;
 };
-

@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type DSTDimensionFRKM123Enum = 'age_interval' | 'gender' | 'municipality_code' | 'period';
+export type DSTDimensionFRKM123Enum =
+  | 'age_interval'
+  | 'gender'
+  | 'municipality_code'
+  | 'period';

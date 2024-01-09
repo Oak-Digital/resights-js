@@ -5,12 +5,11 @@
 import type { DataroomStateEnum } from './DataroomStateEnum';
 import type { DataroomStateSourceEnum } from './DataroomStateSourceEnum';
 export type DataroomModelOut = {
-    user?: string;
-    external_dataroom_id: number;
-    id?: string;
-    state: DataroomStateEnum;
-    name: string;
-    type?: string;
-    state_source: DataroomStateSourceEnum;
+  user?: string;
+  external_dataroom_id: number;
+  id?: string;
+  state: DataroomStateEnum;
+  name: string;
+  type?: string;
+  state_source: DataroomStateSourceEnum;
 };
-

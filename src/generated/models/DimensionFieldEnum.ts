@@ -5,4 +5,15 @@
 /**
  * An enumeration.
  */
-export type DimensionFieldEnum = 'type' | 'trade_type' | 'trade_date' | 'trade_method' | 'asset_type' | 'asset_stage' | 'municipality_code' | 'zip_code' | 'street_code' | 'buyers.id' | 'sellers.id';
+export type DimensionFieldEnum =
+  | 'type'
+  | 'trade_type'
+  | 'trade_date'
+  | 'trade_method'
+  | 'asset_type'
+  | 'asset_stage'
+  | 'municipality_code'
+  | 'zip_code'
+  | 'street_code'
+  | 'buyers.id'
+  | 'sellers.id';

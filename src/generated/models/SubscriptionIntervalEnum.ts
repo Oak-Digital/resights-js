@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type SubscriptionIntervalEnum = 'year' | 'half_year' | 'quarter' | 'month';
+export type SubscriptionIntervalEnum =
+  | 'year'
+  | 'half_year'
+  | 'quarter'
+  | 'month';

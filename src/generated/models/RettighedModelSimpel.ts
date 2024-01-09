@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type RettighedModelSimpel = {
-    Id?: string;
-    Type?: string;
-    Prioritet?: number;
+  Id?: string;
+  Type?: string;
+  Prioritet?: number;
 };
-

@@ -6,13 +6,12 @@ import type { BaseNodeResponse } from './BaseNodeResponse';
 import type { CVRShare } from './CVRShare';
 import type { GraphRelationEnum } from './GraphRelationEnum';
 export type DerivedLegalOwnershipResponse = {
-    source: BaseNodeResponse;
-    target: BaseNodeResponse;
-    relationship_type: GraphRelationEnum;
-    valid_from?: string;
-    valid_to?: string;
-    value?: any;
-    share: CVRShare;
-    unadjusted_share: CVRShare;
+  source: BaseNodeResponse;
+  target: BaseNodeResponse;
+  relationship_type: GraphRelationEnum;
+  valid_from?: string;
+  valid_to?: string;
+  value?: any;
+  share: CVRShare;
+  unadjusted_share: CVRShare;
 };
-

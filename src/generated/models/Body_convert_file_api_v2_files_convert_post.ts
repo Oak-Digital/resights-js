@@ -3,6 +3,5 @@
 /* tslint:disable */
 /* eslint-disable */
 export type Body_convert_file_api_v2_files_convert_post = {
-    file: Blob;
+  file: Blob;
 };
-

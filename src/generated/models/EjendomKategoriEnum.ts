@@ -5,4 +5,14 @@
 /**
  * An enumeration.
  */
-export type EjendomKategoriEnum = 'Ubebygget grund' | 'Flerfamiliesejendom' | 'Erhvervsejendom' | 'Enfamiliesejendom' | 'Fritidsejendom' | 'Landbrug' | 'Udlejningsejendom' | 'Gartneri' | 'Skovejendom' | 'Anden';
+export type EjendomKategoriEnum =
+  | 'Ubebygget grund'
+  | 'Flerfamiliesejendom'
+  | 'Erhvervsejendom'
+  | 'Enfamiliesejendom'
+  | 'Fritidsejendom'
+  | 'Landbrug'
+  | 'Udlejningsejendom'
+  | 'Gartneri'
+  | 'Skovejendom'
+  | 'Anden';

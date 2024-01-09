@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type TinglysningExportType = 'full' | 'claims' | 'liabilities' | 'easements';
+export type TinglysningExportType =
+  | 'full'
+  | 'claims'
+  | 'liabilities'
+  | 'easements';

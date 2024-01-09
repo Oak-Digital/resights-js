@@ -3,21 +3,20 @@
 /* tslint:disable */
 /* eslint-disable */
 export type SaerligLovgivningModel = {
-    /**
-     * LovNavnTekst
-     */
-    Navn: string;
-    /**
-     * LovNummerTekst
-     */
-    Nummer?: string;
-    /**
-     * LovDato
-     */
-    Dato?: string;
-    /**
-     * LovParagrafNummer
-     */
-    Paragraf?: string;
+  /**
+   * LovNavnTekst
+   */
+  Navn: string;
+  /**
+   * LovNummerTekst
+   */
+  Nummer?: string;
+  /**
+   * LovDato
+   */
+  Dato?: string;
+  /**
+   * LovParagrafNummer
+   */
+  Paragraf?: string;
 };
-

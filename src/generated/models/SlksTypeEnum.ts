@@ -5,4 +5,9 @@
 /**
  * An enumeration.
  */
-export type SlksTypeEnum = 'fredningstatus_lav' | 'fredningstatus_med' | 'fredningstatus_hoej' | 'fredede' | 'bevaringssag';
+export type SlksTypeEnum =
+  | 'fredningstatus_lav'
+  | 'fredningstatus_med'
+  | 'fredningstatus_hoej'
+  | 'fredede'
+  | 'bevaringssag';

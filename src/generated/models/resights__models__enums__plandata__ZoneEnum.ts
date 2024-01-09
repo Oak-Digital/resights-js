@@ -5,4 +5,11 @@
 /**
  * An enumeration.
  */
-export type resights__models__enums__plandata__ZoneEnum = 1 | 2 | 3 | 4 | 5 | 6 | 7;
+export type resights__models__enums__plandata__ZoneEnum =
+  | 1
+  | 2
+  | 3
+  | 4
+  | 5
+  | 6
+  | 7;

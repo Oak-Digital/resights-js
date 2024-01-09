@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type RENTALMeasureRENTALEnum = 'count' | 'rent' | 'rent_net' | 'rent_gross';
+export type RENTALMeasureRENTALEnum =
+  | 'count'
+  | 'rent'
+  | 'rent_net'
+  | 'rent_gross';

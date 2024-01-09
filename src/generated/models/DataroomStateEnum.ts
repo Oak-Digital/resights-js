@@ -5,4 +5,13 @@
 /**
  * An enumeration.
  */
-export type DataroomStateEnum = 'PENDING' | 'GENERATING' | 'GENERATED' | 'UPLOADING' | 'FINISHED' | 'ERROR' | 'NOT_INITIALIZED' | 'NOT_REGISTERED' | 'DELETED';
+export type DataroomStateEnum =
+  | 'PENDING'
+  | 'GENERATING'
+  | 'GENERATED'
+  | 'UPLOADING'
+  | 'FINISHED'
+  | 'ERROR'
+  | 'NOT_INITIALIZED'
+  | 'NOT_REGISTERED'
+  | 'DELETED';

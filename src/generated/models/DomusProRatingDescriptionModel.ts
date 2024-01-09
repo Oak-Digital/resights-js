@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type DomusProRatingDescriptionModel = {
-    Logik: string;
-    Fortolkning: string;
-    'Bemærkning': string;
+  Logik: string;
+  Fortolkning: string;
+  Bemærkning: string;
 };
-

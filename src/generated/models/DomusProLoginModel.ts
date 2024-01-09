@@ -3,11 +3,10 @@
 /* tslint:disable */
 /* eslint-disable */
 export type DomusProLoginModel = {
-    /**
-     * Must be provided if username is not a valid email.
-     */
-    email?: string;
-    username: string;
-    password: string;
+  /**
+   * Must be provided if username is not a valid email.
+   */
+  email?: string;
+  username: string;
+  password: string;
 };
-

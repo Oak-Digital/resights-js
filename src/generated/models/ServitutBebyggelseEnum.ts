@@ -5,4 +5,12 @@
 /**
  * An enumeration.
  */
-export type ServitutBebyggelseEnum = 'Andet' | 'Bebyggelsesforhold' | 'Brandmur' | 'Byggelinje' | 'Byggeretligt skel' | 'Byplanvedtægt' | 'Lokalplan' | 'Vilkår';
+export type ServitutBebyggelseEnum =
+  | 'Andet'
+  | 'Bebyggelsesforhold'
+  | 'Brandmur'
+  | 'Byggelinje'
+  | 'Byggeretligt skel'
+  | 'Byplanvedtægt'
+  | 'Lokalplan'
+  | 'Vilkår';

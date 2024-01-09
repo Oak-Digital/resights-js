@@ -4,8 +4,7 @@
 /* eslint-disable */
 import type { GraphNodeEnum } from './GraphNodeEnum';
 export type BaseNodeResponse = {
-    id: string;
-    name: string;
-    type: GraphNodeEnum;
+  id: string;
+  name: string;
+  type: GraphNodeEnum;
 };
-

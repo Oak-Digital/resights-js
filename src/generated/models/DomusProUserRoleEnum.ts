@@ -5,4 +5,10 @@
 /**
  * An enumeration.
  */
-export type DomusProUserRoleEnum = 'Administrator' | 'Advisor' | 'CreditRatingDepartment' | 'External' | 'Partner' | 'PartnerUserAdministrator';
+export type DomusProUserRoleEnum =
+  | 'Administrator'
+  | 'Advisor'
+  | 'CreditRatingDepartment'
+  | 'External'
+  | 'Partner'
+  | 'PartnerUserAdministrator';

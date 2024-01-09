@@ -4,17 +4,16 @@
 /* eslint-disable */
 import type { TekstGruppeNestedModel } from './TekstGruppeNestedModel';
 export type VilkaarOpskrivningModel = {
-    /**
-     * HaeftelseBeloebOpskrevet
-     */
-    Beloeb: number;
-    /**
-     * ISO 4217 valutakode.
-     */
-    Valuta: string;
-    /**
-     * HaeftelseVilkaarSamling
-     */
-    VilkaarSamling: Array<TekstGruppeNestedModel>;
+  /**
+   * HaeftelseBeloebOpskrevet
+   */
+  Beloeb: number;
+  /**
+   * ISO 4217 valutakode.
+   */
+  Valuta: string;
+  /**
+   * HaeftelseVilkaarSamling
+   */
+  VilkaarSamling: Array<TekstGruppeNestedModel>;
 };
-

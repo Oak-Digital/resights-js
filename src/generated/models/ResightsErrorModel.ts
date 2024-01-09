@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type ResightsErrorModel = {
-    location?: string;
-    message: string;
+  location?: string;
+  message: string;
 };
-

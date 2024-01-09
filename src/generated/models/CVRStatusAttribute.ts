@@ -4,12 +4,11 @@
 /* eslint-disable */
 import type { CVRCreditInformationTextEnum } from './CVRCreditInformationTextEnum';
 export type CVRStatusAttribute = {
-    valid_from?: string;
-    valid_to?: string;
-    last_updated?: string;
-    code: number;
-    text?: string;
-    credit_information_code: number;
-    credit_information_text?: CVRCreditInformationTextEnum;
+  valid_from?: string;
+  valid_to?: string;
+  last_updated?: string;
+  code: number;
+  text?: string;
+  credit_information_code: number;
+  credit_information_text?: CVRCreditInformationTextEnum;
 };
-

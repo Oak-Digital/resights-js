@@ -3,21 +3,20 @@
 /* tslint:disable */
 /* eslint-disable */
 export type EjendomstypeSubModel = {
-    /**
-     * Angives i kvm. Oplysning om størrelsen af det samlede areal, opgjort i kvm.
-     */
-    SamledeAreal?: number;
-    /**
-     * Købesum for Stuehus
-     */
-    KoebesumStuehus?: number;
-    /**
-     * Købesum for driftsbygninger
-     */
-    KoebesumDriftsbygninger?: number;
-    /**
-     * Købesum for jord
-     */
-    KoebesumJord?: number;
+  /**
+   * Angives i kvm. Oplysning om størrelsen af det samlede areal, opgjort i kvm.
+   */
+  SamledeAreal?: number;
+  /**
+   * Købesum for Stuehus
+   */
+  KoebesumStuehus?: number;
+  /**
+   * Købesum for driftsbygninger
+   */
+  KoebesumDriftsbygninger?: number;
+  /**
+   * Købesum for jord
+   */
+  KoebesumJord?: number;
 };
-

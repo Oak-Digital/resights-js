@@ -5,4 +5,11 @@
 /**
  * An enumeration.
  */
-export type CVRSequenceValueTypesEnum = 'string' | 'integer' | 'decimal' | 'boolean' | 'float' | 'date' | 'gMonthDay';
+export type CVRSequenceValueTypesEnum =
+  | 'string'
+  | 'integer'
+  | 'decimal'
+  | 'boolean'
+  | 'float'
+  | 'date'
+  | 'gMonthDay';

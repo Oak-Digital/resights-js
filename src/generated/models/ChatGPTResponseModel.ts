@@ -3,11 +3,10 @@
 /* tslint:disable */
 /* eslint-disable */
 export type ChatGPTResponseModel = {
-    id: string;
-    object: string;
-    created: string;
-    model: string;
-    response: string;
-    tokens: number;
+  id: string;
+  object: string;
+  created: string;
+  model: string;
+  response: string;
+  tokens: number;
 };
-

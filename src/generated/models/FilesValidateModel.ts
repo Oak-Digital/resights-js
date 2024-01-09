@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type FilesValidateModel = {
-    name: string;
-    fileB64: string;
+  name: string;
+  fileB64: string;
 };
-

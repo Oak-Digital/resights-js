@@ -5,4 +5,7 @@
 /**
  * An enumeration.
  */
-export type DomusProAssociationDetailCommentTypeEnum = 'advisory' | 'comment' | 'securitycomment';
+export type DomusProAssociationDetailCommentTypeEnum =
+  | 'advisory'
+  | 'comment'
+  | 'securitycomment';

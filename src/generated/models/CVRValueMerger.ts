@@ -4,9 +4,8 @@
 /* eslint-disable */
 import type { CVRSequenceMergerValuesEnum } from './CVRSequenceMergerValuesEnum';
 export type CVRValueMerger = {
-    valid_from?: string;
-    valid_to?: string;
-    last_updated?: string;
-    value: CVRSequenceMergerValuesEnum;
+  valid_from?: string;
+  valid_to?: string;
+  last_updated?: string;
+  value: CVRSequenceMergerValuesEnum;
 };
-

@@ -3,6 +3,5 @@
 /* tslint:disable */
 /* eslint-disable */
 export type FiltersShortenerResponse = {
-    key: string;
+  key: string;
 };
-

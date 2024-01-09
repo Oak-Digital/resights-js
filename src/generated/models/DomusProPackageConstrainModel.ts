@@ -3,9 +3,8 @@
 /* tslint:disable */
 /* eslint-disable */
 export type DomusProPackageConstrainModel = {
-    table: string;
-    field: string;
-    operator: string;
-    value: number;
+  table: string;
+  field: string;
+  operator: string;
+  value: number;
 };
-

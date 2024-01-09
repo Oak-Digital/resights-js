@@ -5,9 +5,8 @@
 import type { DataroomCategoryType } from './DataroomCategoryType';
 import type { DataroomDocumentState } from './DataroomDocumentState';
 export type DataroomDocumentOut = {
-    parameters: Record<string, any>;
-    category: DataroomCategoryType;
-    holder: Array<string>;
-    state?: DataroomDocumentState;
+  parameters: Record<string, any>;
+  category: DataroomCategoryType;
+  holder: Array<string>;
+  state?: DataroomDocumentState;
 };
-

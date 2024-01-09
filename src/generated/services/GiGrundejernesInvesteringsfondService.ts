@@ -6,22 +6,23 @@ import type { GrundejernesInvesteringsfondResponse } from '../models/Grundejerne
 import type { CancelablePromise } from '../core/CancelablePromise';
 import type { BaseHttpRequest } from '../core/BaseHttpRequest';
 export class GiGrundejernesInvesteringsfondService {
-    constructor(public readonly httpRequest: BaseHttpRequest) {}
-    /**
-     * Get Gi Documents
-     * @param bfeNumber
-     * @returns GrundejernesInvesteringsfondResponse Successful Response
-     * @throws ApiError
-     */
-    public getGiDocuments(
-        bfeNumber: string,
-    ): CancelablePromise<GrundejernesInvesteringsfondResponse> {
-        return this.httpRequest.request({
-            method: 'GET',
-            url: '/api/v2/gi/{bfe_number}',
-            path: {
-                'bfe_number': bfeNumber,
-            },
-        });
-    }
+  constructor(public readonly httpRequest: BaseHttpRequest) {}
+  /**
+   * Get Gi Documents
+   * @returns GrundejernesInvesteringsfondResponse Successful Response
+   * @throws ApiError
+   */
+  public getGiDocuments({
+    bfeNumber,
+  }: {
+    bfeNumber: string;
+  }): CancelablePromise<GrundejernesInvesteringsfondResponse> {
+    return this.httpRequest.request({
+      method: 'GET',
+      url: '/api/v2/gi/{bfe_number}',
+      path: {
+        bfe_number: bfeNumber,
+      },
+    });
+  }
 }

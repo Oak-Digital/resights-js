@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type CVRNodeBase = {
-    id: string;
-    name: string;
-    depth: number;
+  id: string;
+  name: string;
+  depth: number;
 };
-

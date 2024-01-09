@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type StatstidendeStandard = {
-    name: string;
-    public_key: string;
+  name: string;
+  public_key: string;
 };
-

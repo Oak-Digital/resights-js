@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type DomusProPackageTabelModel = {
-    table: string;
-    fields: Array<string>;
+  table: string;
+  fields: Array<string>;
 };
-

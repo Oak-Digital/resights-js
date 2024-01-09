@@ -5,4 +5,18 @@
 /**
  * An enumeration.
  */
-export type HistoriskAdkomsthaverDokumentTypeEnum = 'Endeligt skøde' | 'Skifteretsattest' | 'Jordfordeling endelig' | 'Anden adkomst' | 'Auktionsskøde' | 'Meddelelse' | 'Ekspropriation' | 'Betinget skødekøbesum' | 'Bodeling' | 'Ægtepagt adkomst' | 'Berigtigelse fast ejendom' | 'Betinget skøde andet' | 'Ejendomsdom' | 'Bodeling betinget';
+export type HistoriskAdkomsthaverDokumentTypeEnum =
+  | 'Endeligt skøde'
+  | 'Skifteretsattest'
+  | 'Jordfordeling endelig'
+  | 'Anden adkomst'
+  | 'Auktionsskøde'
+  | 'Meddelelse'
+  | 'Ekspropriation'
+  | 'Betinget skødekøbesum'
+  | 'Bodeling'
+  | 'Ægtepagt adkomst'
+  | 'Berigtigelse fast ejendom'
+  | 'Betinget skøde andet'
+  | 'Ejendomsdom'
+  | 'Bodeling betinget';

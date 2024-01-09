@@ -5,4 +5,13 @@
 /**
  * An enumeration.
  */
-export type GisFormat = 'dxf' | 'dwg' | 'shp' | 'geojson' | 'tab' | 'gml' | 'kml' | 'dgn' | 'xlsx';
+export type GisFormat =
+  | 'dxf'
+  | 'dwg'
+  | 'shp'
+  | 'geojson'
+  | 'tab'
+  | 'gml'
+  | 'kml'
+  | 'dgn'
+  | 'xlsx';

@@ -5,4 +5,15 @@
 /**
  * An enumeration.
  */
-export type UnitTypeEnum = 'Hus/villa' | 'Lejlighed' | 'Rækkehus' | 'Øvrig beboelse' | 'Butik/detail' | 'Kontor' | 'Lager & produktion' | 'Øvrig erhverv' | 'Almen bolig' | 'Parkering' | 'Garage/carport';
+export type UnitTypeEnum =
+  | 'Hus/villa'
+  | 'Lejlighed'
+  | 'Rækkehus'
+  | 'Øvrig beboelse'
+  | 'Butik/detail'
+  | 'Kontor'
+  | 'Lager & produktion'
+  | 'Øvrig erhverv'
+  | 'Almen bolig'
+  | 'Parkering'
+  | 'Garage/carport';

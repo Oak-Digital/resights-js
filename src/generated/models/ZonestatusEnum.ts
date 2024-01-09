@@ -5,4 +5,11 @@
 /**
  * An enumeration.
  */
-export type ZonestatusEnum = 'Byzone' | 'Landzone' | 'Sommerhusområde' | 'Byzone og landzone' | 'Sommerhus og landzone' | 'By og sommerhusområde' | 'Byzone, landzone og sommerhusområde';
+export type ZonestatusEnum =
+  | 'Byzone'
+  | 'Landzone'
+  | 'Sommerhusområde'
+  | 'Byzone og landzone'
+  | 'Sommerhus og landzone'
+  | 'By og sommerhusområde'
+  | 'Byzone, landzone og sommerhusområde';

@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type GeoPoint = {
-    lat: number;
-    lon: number;
+  lat: number;
+  lon: number;
 };
-

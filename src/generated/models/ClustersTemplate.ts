@@ -9,12 +9,14 @@ import type { PercentilesAgg } from './PercentilesAgg';
 import type { SumAgg } from './SumAgg';
 import type { ValueCountAgg } from './ValueCountAgg';
 export type ClustersTemplate = {
-    template_name: 'clusters';
-    field: string;
-    top_left?: Array<any>;
-    bottom_right?: Array<any>;
-    precision?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12;
-    size?: number;
-    aggs?: Record<string, (AvgAgg | MinAgg | MaxAgg | SumAgg | ValueCountAgg | PercentilesAgg)>;
+  template_name: 'clusters';
+  field: string;
+  top_left?: Array<any>;
+  bottom_right?: Array<any>;
+  precision?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12;
+  size?: number;
+  aggs?: Record<
+    string,
+    AvgAgg | MinAgg | MaxAgg | SumAgg | ValueCountAgg | PercentilesAgg
+  >;
 };
-

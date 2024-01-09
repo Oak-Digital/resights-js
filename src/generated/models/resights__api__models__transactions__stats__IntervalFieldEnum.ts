@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type resights__api__models__transactions__stats__IntervalFieldEnum = 'year' | 'quarter' | 'month' | 'week';
+export type resights__api__models__transactions__stats__IntervalFieldEnum =
+  | 'year'
+  | 'quarter'
+  | 'month'
+  | 'week';

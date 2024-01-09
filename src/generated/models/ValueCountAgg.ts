@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type ValueCountAgg = {
-    field: string;
-    agg_type: 'value_count';
+  field: string;
+  agg_type: 'value_count';
 };
-

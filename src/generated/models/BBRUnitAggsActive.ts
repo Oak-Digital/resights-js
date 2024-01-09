@@ -6,13 +6,12 @@
  * Aggregations for units that are constructed (status == 6)
  */
 export type BBRUnitAggsActive = {
-    count?: number;
-    residential_units?: number;
-    commercial_units?: number;
-    unit_area?: number;
-    enh026_area_unit_total?: number;
-    enh027_area_residential?: number;
-    enh028_area_commercial?: number;
-    enh031_number_rooms?: number;
+  count?: number;
+  residential_units?: number;
+  commercial_units?: number;
+  unit_area?: number;
+  enh026_area_unit_total?: number;
+  enh027_area_residential?: number;
+  enh028_area_commercial?: number;
+  enh031_number_rooms?: number;
 };
-

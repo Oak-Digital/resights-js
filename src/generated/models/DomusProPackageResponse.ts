@@ -6,10 +6,9 @@ import type { DomusProPackageConstrainModel } from './DomusProPackageConstrainMo
 import type { DomusProPackageIdEnum } from './DomusProPackageIdEnum';
 import type { DomusProPackageTabelModel } from './DomusProPackageTabelModel';
 export type DomusProPackageResponse = {
-    id: DomusProPackageIdEnum;
-    label: string;
-    always_include?: boolean;
-    tables?: Array<DomusProPackageTabelModel>;
-    constraints?: Array<DomusProPackageConstrainModel>;
+  id: DomusProPackageIdEnum;
+  label: string;
+  always_include?: boolean;
+  tables?: Array<DomusProPackageTabelModel>;
+  constraints?: Array<DomusProPackageConstrainModel>;
 };
-

@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type BetingetMatrikulaerAendringEnum = 'Arealoverførsel' | 'Udstykning' | 'Sammenlægning' | 'Anden matrikulær ændring';
+export type BetingetMatrikulaerAendringEnum =
+  | 'Arealoverførsel'
+  | 'Udstykning'
+  | 'Sammenlægning'
+  | 'Anden matrikulær ændring';

@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type NewRelicCompanyResponse = {
-    id: string;
-    count: number;
-    timestamp: string;
+  id: string;
+  count: number;
+  timestamp: string;
 };
-

@@ -5,8 +5,7 @@
 import type { GeoJSONGeometryModel } from './GeoJSONGeometryModel';
 import type { GeoJSONPropertiesModel } from './GeoJSONPropertiesModel';
 export type GeoJSONFeatureModel = {
-    type: 'Feature';
-    geometry: GeoJSONGeometryModel;
-    properties: GeoJSONPropertiesModel;
+  type: 'Feature';
+  geometry: GeoJSONGeometryModel;
+  properties: GeoJSONPropertiesModel;
 };
-

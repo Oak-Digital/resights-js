@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type DomusProValueExplanationModel = {
-    green?: string;
-    yellow?: string;
-    red?: string;
+  green?: string;
+  yellow?: string;
+  red?: string;
 };
-

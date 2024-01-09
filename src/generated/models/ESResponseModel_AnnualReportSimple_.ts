@@ -4,9 +4,8 @@
 /* eslint-disable */
 import type { AnnualReportSimple } from './AnnualReportSimple';
 export type ESResponseModel_AnnualReportSimple_ = {
-    total: number;
-    next_page: string;
-    results?: Array<AnnualReportSimple>;
-    aggregations?: Record<string, Record<string, any>>;
+  total: number;
+  next_page: string;
+  results?: Array<AnnualReportSimple>;
+  aggregations?: Record<string, Record<string, any>>;
 };
-

@@ -5,4 +5,10 @@
 /**
  * An enumeration.
  */
-export type HovedNoteringEnum = 'Arbejderbolig' | 'Fælleslod' | 'Landbrugsejendom uden beboelse' | 'Landbrugsejendom' | 'Landbrug familieejendom' | 'Samlet ejendom';
+export type HovedNoteringEnum =
+  | 'Arbejderbolig'
+  | 'Fælleslod'
+  | 'Landbrugsejendom uden beboelse'
+  | 'Landbrugsejendom'
+  | 'Landbrug familieejendom'
+  | 'Samlet ejendom';

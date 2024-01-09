@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type NewRelicStatsModel = {
-    name: string;
-    count: number;
+  name: string;
+  count: number;
 };
-

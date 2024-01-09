@@ -4,7 +4,6 @@
 /* eslint-disable */
 import type { DK118SubscriberModel } from './DK118SubscriberModel';
 export type DK118ListingModel = {
-    name: string;
-    subscriber: DK118SubscriberModel;
+  name: string;
+  subscriber: DK118SubscriberModel;
 };
-

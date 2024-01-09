@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type AnalysisMetadataFilterValueModel = {
-    title: string;
-    value?: (number | boolean | string);
-    count: number;
+  title: string;
+  value?: number | boolean | string;
+  count: number;
 };
-

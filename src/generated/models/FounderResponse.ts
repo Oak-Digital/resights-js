@@ -5,11 +5,10 @@
 import type { BaseNodeResponse } from './BaseNodeResponse';
 import type { GraphRelationEnum } from './GraphRelationEnum';
 export type FounderResponse = {
-    source: BaseNodeResponse;
-    target: BaseNodeResponse;
-    relationship_type: GraphRelationEnum;
-    valid_from?: string;
-    valid_to?: string;
-    value?: any;
+  source: BaseNodeResponse;
+  target: BaseNodeResponse;
+  relationship_type: GraphRelationEnum;
+  valid_from?: string;
+  valid_to?: string;
+  value?: any;
 };
-

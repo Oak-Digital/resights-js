@@ -5,4 +5,7 @@
 /**
  * An enumeration.
  */
-export type RettighedTypeEnum = 'Adkomstrettighed' | 'Pantrettighed' | 'Servitutrettighed';
+export type RettighedTypeEnum =
+  | 'Adkomstrettighed'
+  | 'Pantrettighed'
+  | 'Servitutrettighed';

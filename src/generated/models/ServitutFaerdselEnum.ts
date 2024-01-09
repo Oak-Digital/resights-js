@@ -5,4 +5,9 @@
 /**
  * An enumeration.
  */
-export type ServitutFaerdselEnum = 'Adgangsforhold' | 'Andet' | 'Parkering' | 'Vej' | 'Vejret';
+export type ServitutFaerdselEnum =
+  | 'Adgangsforhold'
+  | 'Andet'
+  | 'Parkering'
+  | 'Vej'
+  | 'Vejret';

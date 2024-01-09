@@ -5,4 +5,9 @@
 /**
  * An enumeration.
  */
-export type resights__api__models__transactions__stats__SortFieldEnum = 'avg' | 'count' | 'max' | 'min' | 'sum';
+export type resights__api__models__transactions__stats__SortFieldEnum =
+  | 'avg'
+  | 'count'
+  | 'max'
+  | 'min'
+  | 'sum';

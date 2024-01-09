@@ -5,4 +5,14 @@
 /**
  * An enumeration.
  */
-export type HaeftelseTypeEnum = 'Anden' | 'Arrest' | 'Udlæg' | 'Ejerpantebrev' | 'Privat indekspantebrev' | 'Privat pantebrev' | 'Realkreditpantebrev' | 'Skadesløsbrev' | 'Underpant' | 'Ejendomsforbehold';
+export type HaeftelseTypeEnum =
+  | 'Anden'
+  | 'Arrest'
+  | 'Udlæg'
+  | 'Ejerpantebrev'
+  | 'Privat indekspantebrev'
+  | 'Privat pantebrev'
+  | 'Realkreditpantebrev'
+  | 'Skadesløsbrev'
+  | 'Underpant'
+  | 'Ejendomsforbehold';

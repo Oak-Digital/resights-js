@@ -5,11 +5,10 @@
 import type { CVRNetworkNodeBase } from './CVRNetworkNodeBase';
 import type { CVRNetworkShare } from './CVRNetworkShare';
 export type CVRNetworkEdge = {
-    id: string;
-    source: CVRNetworkNodeBase;
-    target: CVRNetworkNodeBase;
-    share: CVRNetworkShare;
-    unadjusted_share: CVRNetworkShare;
-    active: boolean;
+  id: string;
+  source: CVRNetworkNodeBase;
+  target: CVRNetworkNodeBase;
+  share: CVRNetworkShare;
+  unadjusted_share: CVRNetworkShare;
+  active: boolean;
 };
-

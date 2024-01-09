@@ -5,4 +5,9 @@
 /**
  * An enumeration.
  */
-export type RolleTypeIdentifikatorEnum = 'Debitor' | 'Kreditor' | 'Ejer' | 'Påtaleberettiget' | 'Underpanthaver';
+export type RolleTypeIdentifikatorEnum =
+  | 'Debitor'
+  | 'Kreditor'
+  | 'Ejer'
+  | 'Påtaleberettiget'
+  | 'Underpanthaver';

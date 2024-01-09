@@ -5,10 +5,9 @@
 import type { TransactionCapRateSourceEnum } from './TransactionCapRateSourceEnum';
 import type { TransactionQualityEnum } from './TransactionQualityEnum';
 export type TransactionMeasureCapRateResponse = {
-    value: number;
-    lower: number;
-    upper: number;
-    source: TransactionCapRateSourceEnum;
-    quality?: TransactionQualityEnum;
+  value: number;
+  lower: number;
+  upper: number;
+  source: TransactionCapRateSourceEnum;
+  quality?: TransactionQualityEnum;
 };
-

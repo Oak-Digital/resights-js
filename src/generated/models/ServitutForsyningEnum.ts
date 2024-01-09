@@ -5,4 +5,9 @@
 /**
  * An enumeration.
  */
-export type ServitutForsyningEnum = 'Andet' | 'Naturgas' | 'Tilslutningspligt' | 'Vand' | 'Varme';
+export type ServitutForsyningEnum =
+  | 'Andet'
+  | 'Naturgas'
+  | 'Tilslutningspligt'
+  | 'Vand'
+  | 'Varme';

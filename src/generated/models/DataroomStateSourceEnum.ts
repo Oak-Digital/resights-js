@@ -5,4 +5,7 @@
 /**
  * An enumeration.
  */
-export type DataroomStateSourceEnum = 'BONAMEA_API' | 'RESIGHTS_USERS_API' | 'RESIGHTS_DOCUMENTS_API';
+export type DataroomStateSourceEnum =
+  | 'BONAMEA_API'
+  | 'RESIGHTS_USERS_API'
+  | 'RESIGHTS_DOCUMENTS_API';

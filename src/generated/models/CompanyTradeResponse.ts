@@ -4,7 +4,6 @@
 /* eslint-disable */
 import type { CompanyTradeDetails } from './CompanyTradeDetails';
 export type CompanyTradeResponse = {
-    result?: boolean;
-    details?: CompanyTradeDetails;
+  result?: boolean;
+  details?: CompanyTradeDetails;
 };
-

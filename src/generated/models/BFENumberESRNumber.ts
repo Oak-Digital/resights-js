@@ -6,8 +6,7 @@
  * Base class for a model representing and defining a Materialized View.
  */
 export type BFENumberESRNumber = {
-    esr_number: number;
-    municipality_code: number;
-    property_number: number;
+  esr_number: number;
+  municipality_code: number;
+  property_number: number;
 };
-

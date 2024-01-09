@@ -5,7 +5,6 @@
 import type { CVROwnershipEdgeResponse } from './CVROwnershipEdgeResponse';
 import type { CVROwnershipNodeResponse } from './CVROwnershipNodeResponse';
 export type CVROwnershipNetworkResponse = {
-    nodes: Array<CVROwnershipNodeResponse>;
-    edges: Array<CVROwnershipEdgeResponse>;
+  nodes: Array<CVROwnershipNodeResponse>;
+  edges: Array<CVROwnershipEdgeResponse>;
 };
-

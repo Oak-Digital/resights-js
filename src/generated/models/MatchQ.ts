@@ -4,8 +4,7 @@
 /* eslint-disable */
 import type { MatchQueryType } from './MatchQueryType';
 export type MatchQ = {
-    field: string;
-    value: string;
-    type?: MatchQueryType;
+  field: string;
+  value: string;
+  type?: MatchQueryType;
 };
-

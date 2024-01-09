@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type CVRShare = {
-    lower: number;
-    average: number;
-    upper: number;
+  lower: number;
+  average: number;
+  upper: number;
 };
-

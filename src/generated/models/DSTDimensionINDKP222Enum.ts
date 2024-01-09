@@ -5,4 +5,9 @@
 /**
  * An enumeration.
  */
-export type DSTDimensionINDKP222Enum = 'municipality_code' | 'gender' | 'age' | 'income' | 'period';
+export type DSTDimensionINDKP222Enum =
+  | 'municipality_code'
+  | 'gender'
+  | 'age'
+  | 'income'
+  | 'period';

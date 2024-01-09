@@ -5,4 +5,14 @@
 /**
  * An enumeration.
  */
-export type PROPERTIESDimensionPROPERTIESEnum = 'overview.type' | 'overview.sub_type' | 'overview.ownership_code' | 'overview.primary_usage' | 'construction_year' | 'rebuilding_year' | 'overview.address.municipality_code' | 'overview.address.zip_code' | 'overview.construction_year' | 'overview.rebuilding_year';
+export type PROPERTIESDimensionPROPERTIESEnum =
+  | 'overview.type'
+  | 'overview.sub_type'
+  | 'overview.ownership_code'
+  | 'overview.primary_usage'
+  | 'construction_year'
+  | 'rebuilding_year'
+  | 'overview.address.municipality_code'
+  | 'overview.address.zip_code'
+  | 'overview.construction_year'
+  | 'overview.rebuilding_year';

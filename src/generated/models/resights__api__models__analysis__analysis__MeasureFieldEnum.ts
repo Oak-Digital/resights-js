@@ -5,4 +5,7 @@
 /**
  * An enumeration.
  */
-export type resights__api__models__analysis__analysis__MeasureFieldEnum = 'sum' | 'avg' | 'median';
+export type resights__api__models__analysis__analysis__MeasureFieldEnum =
+  | 'sum'
+  | 'avg'
+  | 'median';

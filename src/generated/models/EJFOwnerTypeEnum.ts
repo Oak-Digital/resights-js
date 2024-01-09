@@ -5,4 +5,9 @@
 /**
  * An enumeration.
  */
-export type EJFOwnerTypeEnum = 'PERSON' | 'COMPANY' | 'OTHER' | 'ADMINISTRATOR' | 'UNKNOWN';
+export type EJFOwnerTypeEnum =
+  | 'PERSON'
+  | 'COMPANY'
+  | 'OTHER'
+  | 'ADMINISTRATOR'
+  | 'UNKNOWN';

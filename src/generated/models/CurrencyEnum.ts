@@ -5,4 +5,12 @@
 /**
  * An enumeration.
  */
-export type CurrencyEnum = 'DKK' | 'EUR' | 'AED' | 'NOK' | 'SEK' | 'CHF' | 'SKK' | 'USD';
+export type CurrencyEnum =
+  | 'DKK'
+  | 'EUR'
+  | 'AED'
+  | 'NOK'
+  | 'SEK'
+  | 'CHF'
+  | 'SKK'
+  | 'USD';

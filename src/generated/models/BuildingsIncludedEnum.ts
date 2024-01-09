@@ -5,4 +5,14 @@
 /**
  * An enumeration.
  */
-export type BuildingsIncludedEnum = 'Planlagt nedrevet' | 'Under opførelse' | 'Planlagte' | 'Enfamiliesejendom' | 'Fritidsejendom' | 'Anden' | 'Ubebyggetgrund' | 'Erhvervsejendom' | 'Flerfamiliesejendom' | 'Landbrug';
+export type BuildingsIncludedEnum =
+  | 'Planlagt nedrevet'
+  | 'Under opførelse'
+  | 'Planlagte'
+  | 'Enfamiliesejendom'
+  | 'Fritidsejendom'
+  | 'Anden'
+  | 'Ubebyggetgrund'
+  | 'Erhvervsejendom'
+  | 'Flerfamiliesejendom'
+  | 'Landbrug';

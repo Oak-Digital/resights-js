@@ -5,4 +5,11 @@
 /**
  * An enumeration.
  */
-export type CVRResponsibleDataProviderEnum = 'DST' | 'UOP' | 'T&S' | 'E&S' | 'GER' | 'ERG' | 'TSA';
+export type CVRResponsibleDataProviderEnum =
+  | 'DST'
+  | 'UOP'
+  | 'T&S'
+  | 'E&S'
+  | 'GER'
+  | 'ERG'
+  | 'TSA';

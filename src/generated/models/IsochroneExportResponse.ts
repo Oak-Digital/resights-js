@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type IsochroneExportResponse = {
-    success: boolean;
-    message: string;
+  success: boolean;
+  message: string;
 };
-

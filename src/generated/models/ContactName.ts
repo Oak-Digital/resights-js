@@ -3,12 +3,11 @@
 /* tslint:disable */
 /* eslint-disable */
 export type ContactName = {
-    id: string;
-    name: string;
-    first_name?: string;
-    last_name?: string;
-    function?: Array<string>;
-    owner_percentage?: number;
-    special_ownership?: string;
+  id: string;
+  name: string;
+  first_name?: string;
+  last_name?: string;
+  function?: Array<string>;
+  owner_percentage?: number;
+  special_ownership?: string;
 };
-

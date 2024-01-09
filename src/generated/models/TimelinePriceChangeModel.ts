@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type TimelinePriceChangeModel = {
-    value: number;
-    percentage: number;
+  value: number;
+  percentage: number;
 };
-

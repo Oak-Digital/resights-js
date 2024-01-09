@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type EkspeditionTypeEnum = 'EkspeditionstypeHaeftelseFastEjendomIdentifikator' | 'EkspeditionstypeHaeftelseBilIdentifikator' | 'EkspeditionstypeHaeftelseAndelIdentifikator' | 'EkspeditionstypeHaeftelseLoesoereIdentifikator';
+export type EkspeditionTypeEnum =
+  | 'EkspeditionstypeHaeftelseFastEjendomIdentifikator'
+  | 'EkspeditionstypeHaeftelseBilIdentifikator'
+  | 'EkspeditionstypeHaeftelseAndelIdentifikator'
+  | 'EkspeditionstypeHaeftelseLoesoereIdentifikator';

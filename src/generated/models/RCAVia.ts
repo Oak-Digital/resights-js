@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type RCAVia = {
-    id: string;
-    name: string;
+  id: string;
+  name: string;
 };
-

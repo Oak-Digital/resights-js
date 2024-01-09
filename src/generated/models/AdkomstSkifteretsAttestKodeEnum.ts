@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type AdkomstSkifteretsAttestKodeEnum = 'Efterlevende ægtefælle' | 'Dødsboet' | 'En eller flere arvinger' | 'Led i videre overdragelse';
+export type AdkomstSkifteretsAttestKodeEnum =
+  | 'Efterlevende ægtefælle'
+  | 'Dødsboet'
+  | 'En eller flere arvinger'
+  | 'Led i videre overdragelse';

@@ -5,7 +5,6 @@
 import type { TimelineEventTypeEnum } from './TimelineEventTypeEnum';
 import type { TimelineItem } from './TimelineItem';
 export type TimelineEvent = {
-    type: TimelineEventTypeEnum;
-    items: Array<TimelineItem>;
+  type: TimelineEventTypeEnum;
+  items: Array<TimelineItem>;
 };
-

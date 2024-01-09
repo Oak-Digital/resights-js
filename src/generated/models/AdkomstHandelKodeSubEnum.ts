@@ -5,4 +5,6 @@
 /**
  * An enumeration.
  */
-export type AdkomstHandelKodeSubEnum = 'Almindelig fri handel markedsvilkår' | 'Fritidsbolig markedsvilkår';
+export type AdkomstHandelKodeSubEnum =
+  | 'Almindelig fri handel markedsvilkår'
+  | 'Fritidsbolig markedsvilkår';

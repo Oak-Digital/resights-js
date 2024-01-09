@@ -3,10 +3,9 @@
 /* tslint:disable */
 /* eslint-disable */
 export type DomusProSearchResponse = {
-    associationId: number;
-    cvrNumber?: number;
-    name: string;
-    searchName: string;
-    zip: number;
+  associationId: number;
+  cvrNumber?: number;
+  name: string;
+  searchName: string;
+  zip: number;
 };
-

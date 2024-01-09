@@ -4,8 +4,8 @@
 /* eslint-disable */
 import type { TransactionActorResponseModelWithSubsidiaries } from './TransactionActorResponseModelWithSubsidiaries';
 import type { TransactionPaginationModel } from './TransactionPaginationModel';
-export type TransactionResponseWrapper_TransactionActorResponseModelWithSubsidiaries_ = {
+export type TransactionResponseWrapper_TransactionActorResponseModelWithSubsidiaries_ =
+  {
     data: Array<TransactionActorResponseModelWithSubsidiaries>;
     pagination: TransactionPaginationModel;
-};
-
+  };

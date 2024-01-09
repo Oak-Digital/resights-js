@@ -5,4 +5,21 @@
 /**
  * An enumeration.
  */
-export type TransactionAssetTypeEnum = 'AGRICULTURE' | 'COMMERCIAL' | 'EDUCATION' | 'EMPTY_LAND' | 'HOTEL' | 'INDUSTRY_LOGISTICS' | 'LEISURE' | 'LEISURE_CULTURE' | 'LOGISTICS' | 'MANUFACTURING' | 'OFFICE' | 'PARKING' | 'PUBLIC' | 'RESIDENTIAL' | 'RETAIL' | 'WINDMILL' | 'UNKNOWN';
+export type TransactionAssetTypeEnum =
+  | 'AGRICULTURE'
+  | 'COMMERCIAL'
+  | 'EDUCATION'
+  | 'EMPTY_LAND'
+  | 'HOTEL'
+  | 'INDUSTRY_LOGISTICS'
+  | 'LEISURE'
+  | 'LEISURE_CULTURE'
+  | 'LOGISTICS'
+  | 'MANUFACTURING'
+  | 'OFFICE'
+  | 'PARKING'
+  | 'PUBLIC'
+  | 'RESIDENTIAL'
+  | 'RETAIL'
+  | 'WINDMILL'
+  | 'UNKNOWN';

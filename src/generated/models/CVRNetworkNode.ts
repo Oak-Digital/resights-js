@@ -5,11 +5,10 @@
 import type { CVRNetworkShare } from './CVRNetworkShare';
 import type { CVRUnitTypeEnum } from './CVRUnitTypeEnum';
 export type CVRNetworkNode = {
-    id: number;
-    name: string;
-    depth: number;
-    type: CVRUnitTypeEnum;
-    real_share: CVRNetworkShare;
-    active: boolean;
+  id: number;
+  name: string;
+  depth: number;
+  type: CVRUnitTypeEnum;
+  real_share: CVRNetworkShare;
+  active: boolean;
 };
-

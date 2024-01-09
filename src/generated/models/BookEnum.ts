@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type BookEnum = 'FAST_EJENDOM' | 'KORETOJER' | 'ANDELSBOLIGER' | 'PERSONER_VIRKSOMHEDER';
+export type BookEnum =
+  | 'FAST_EJENDOM'
+  | 'KORETOJER'
+  | 'ANDELSBOLIGER'
+  | 'PERSONER_VIRKSOMHEDER';

@@ -4,9 +4,8 @@
 /* eslint-disable */
 import type { TransactionGraphStatsBucketResponse } from './TransactionGraphStatsBucketResponse';
 export type TransactionGraphStatsResponse = {
-    key: string;
-    count: number;
-    bucket: TransactionGraphStatsBucketResponse;
-    buckets: Array<TransactionGraphStatsBucketResponse>;
+  key: string;
+  count: number;
+  bucket: TransactionGraphStatsBucketResponse;
+  buckets: Array<TransactionGraphStatsBucketResponse>;
 };
-

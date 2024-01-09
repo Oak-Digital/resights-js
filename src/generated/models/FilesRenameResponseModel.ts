@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type FilesRenameResponseModel = {
-    old_key: string;
-    new_key: string;
+  old_key: string;
+  new_key: string;
 };
-

@@ -5,4 +5,19 @@
 /**
  * An enumeration.
  */
-export type AnalysisTablesEnum = 'bbr.buildings' | 'bbr.units' | 'cvr.companies' | 'cvr.p_units' | 'dst.bil800' | 'dst.dst_addresses' | 'dst.fly66' | 'dst.folk1a' | 'dst.frkm123' | 'dst.hfudd16' | 'dst.indkp222' | 'dst.udb030' | 'properties' | 'rental' | 'transactions';
+export type AnalysisTablesEnum =
+  | 'bbr.buildings'
+  | 'bbr.units'
+  | 'cvr.companies'
+  | 'cvr.p_units'
+  | 'dst.bil800'
+  | 'dst.dst_addresses'
+  | 'dst.fly66'
+  | 'dst.folk1a'
+  | 'dst.frkm123'
+  | 'dst.hfudd16'
+  | 'dst.indkp222'
+  | 'dst.udb030'
+  | 'properties'
+  | 'rental'
+  | 'transactions';

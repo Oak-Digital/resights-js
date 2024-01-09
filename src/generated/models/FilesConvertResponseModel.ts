@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type FilesConvertResponseModel = {
-    file: Blob;
-    pages: number;
+  file: Blob;
+  pages: number;
 };
-

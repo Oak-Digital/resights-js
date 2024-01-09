@@ -4,7 +4,6 @@
 /* eslint-disable */
 import type { GeoBBox } from './GeoBBox';
 export type GeoBBoxQ = {
-    field: string;
-    value: GeoBBox;
+  field: string;
+  value: GeoBBox;
 };
-

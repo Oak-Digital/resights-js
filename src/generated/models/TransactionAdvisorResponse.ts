@@ -3,6 +3,5 @@
 /* tslint:disable */
 /* eslint-disable */
 export type TransactionAdvisorResponse = {
-    name: string;
+  name: string;
 };
-

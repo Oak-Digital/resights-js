@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type MinAgg = {
-    field: string;
-    agg_type: 'min';
-    missing?: number;
+  field: string;
+  agg_type: 'min';
+  missing?: number;
 };
-

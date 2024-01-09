@@ -8,7 +8,6 @@
  * with score based on the number of matches
  */
 export type TermsQ = {
-    field: string;
-    value: (Array<number> | Array<string> | Array<boolean>);
+  field: string;
+  value: Array<number> | Array<string> | Array<boolean>;
 };
-

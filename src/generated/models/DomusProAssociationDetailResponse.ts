@@ -5,7 +5,6 @@
 import type { DomusProAssociationDetailAssessmentResponse } from './DomusProAssociationDetailAssessmentResponse';
 import type { DomusProAssociationDetailCommentResponse } from './DomusProAssociationDetailCommentResponse';
 export type DomusProAssociationDetailResponse = {
-    comments?: Array<DomusProAssociationDetailCommentResponse>;
-    assessments?: Array<DomusProAssociationDetailAssessmentResponse>;
+  comments?: Array<DomusProAssociationDetailCommentResponse>;
+  assessments?: Array<DomusProAssociationDetailAssessmentResponse>;
 };
-

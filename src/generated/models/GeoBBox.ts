@@ -4,7 +4,6 @@
 /* eslint-disable */
 import type { GeoPoint } from './GeoPoint';
 export type GeoBBox = {
-    top_left: (GeoPoint | string);
-    bottom_right: (GeoPoint | string);
+  top_left: GeoPoint | string;
+  bottom_right: GeoPoint | string;
 };
-

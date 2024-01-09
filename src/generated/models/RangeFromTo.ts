@@ -3,9 +3,8 @@
 /* tslint:disable */
 /* eslint-disable */
 export type RangeFromTo = {
-    lt?: (number | string);
-    lte?: (number | string);
-    gt?: (number | string);
-    gte?: (number | string);
+  lt?: number | string;
+  lte?: number | string;
+  gt?: number | string;
+  gte?: number | string;
 };
-

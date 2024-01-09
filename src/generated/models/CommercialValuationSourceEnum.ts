@@ -5,4 +5,7 @@
 /**
  * An enumeration.
  */
-export type CommercialValuationSourceEnum = 'ERHVERVSEJENDOMME' | 'SKOV_LANDBRUG' | 'OFFENTLIGE_EJENDOMME';
+export type CommercialValuationSourceEnum =
+  | 'ERHVERVSEJENDOMME'
+  | 'SKOV_LANDBRUG'
+  | 'OFFENTLIGE_EJENDOMME';

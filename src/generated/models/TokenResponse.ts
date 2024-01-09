@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type TokenResponse = {
-    user: string;
-    token: string;
+  user: string;
+  token: string;
 };
-

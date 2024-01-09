@@ -4,7 +4,6 @@
 /* eslint-disable */
 import type { TransactionAdvisorRoleEnum } from './TransactionAdvisorRoleEnum';
 export type TransactionAdvisor = {
-    name: string;
-    role?: TransactionAdvisorRoleEnum;
+  name: string;
+  role?: TransactionAdvisorRoleEnum;
 };
-

@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type TransactionPropertiesValuationResponse = {
-    id: number;
-    property_value: number;
-    land_value: number;
+  id: number;
+  property_value: number;
+  land_value: number;
 };
-

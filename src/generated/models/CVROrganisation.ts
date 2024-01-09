@@ -7,10 +7,9 @@ import type { CVROrganisationMainTypeEnum } from './CVROrganisationMainTypeEnum'
 import type { CVRSequenceMemberRelations } from './CVRSequenceMemberRelations';
 import type { CVRSequenceOrganisations } from './CVRSequenceOrganisations';
 export type CVROrganisation = {
-    unit_number: number;
-    main_type: CVROrganisationMainTypeEnum;
-    names: Array<CVRNameAttribute>;
-    attributes: Array<CVRSequenceOrganisations>;
-    member_data: Array<Array<CVRSequenceMemberRelations>>;
+  unit_number: number;
+  main_type: CVROrganisationMainTypeEnum;
+  names: Array<CVRNameAttribute>;
+  attributes: Array<CVRSequenceOrganisations>;
+  member_data: Array<Array<CVRSequenceMemberRelations>>;
 };
-

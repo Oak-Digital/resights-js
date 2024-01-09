@@ -3,9 +3,8 @@
 /* tslint:disable */
 /* eslint-disable */
 export type CVRCompanyRelationAttribute = {
-    valid_from?: string;
-    valid_to?: string;
-    last_updated?: string;
-    cvr_number: number;
+  valid_from?: string;
+  valid_to?: string;
+  last_updated?: string;
+  cvr_number: number;
 };
-

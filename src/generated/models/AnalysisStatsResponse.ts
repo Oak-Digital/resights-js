@@ -4,9 +4,8 @@
 /* eslint-disable */
 import type { AnalysisStatsBucketResponse } from './AnalysisStatsBucketResponse';
 export type AnalysisStatsResponse = {
-    key: string;
-    count: number;
-    bucket: AnalysisStatsBucketResponse;
-    buckets: Array<AnalysisStatsBucketResponse>;
+  key: string;
+  count: number;
+  bucket: AnalysisStatsBucketResponse;
+  buckets: Array<AnalysisStatsBucketResponse>;
 };
-

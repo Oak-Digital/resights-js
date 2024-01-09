@@ -5,4 +5,12 @@
 /**
  * An enumeration.
  */
-export type PEPFATFRCATypeEnum = 'PEP' | 'FATF' | 'RCA1' | 'RCA2' | 'RCA3' | 'RCA4' | 'RCA5' | 'RCA6';
+export type PEPFATFRCATypeEnum =
+  | 'PEP'
+  | 'FATF'
+  | 'RCA1'
+  | 'RCA2'
+  | 'RCA3'
+  | 'RCA4'
+  | 'RCA5'
+  | 'RCA6';

@@ -5,10 +5,9 @@
 import type { TransactionPriceSourceEnum } from './TransactionPriceSourceEnum';
 import type { TransactionQualityEnum } from './TransactionQualityEnum';
 export type TransactionMeasurePriceResponse = {
-    value: number;
-    lower: number;
-    upper: number;
-    source?: TransactionPriceSourceEnum;
-    quality?: TransactionQualityEnum;
+  value: number;
+  lower: number;
+  upper: number;
+  source?: TransactionPriceSourceEnum;
+  quality?: TransactionQualityEnum;
 };
-

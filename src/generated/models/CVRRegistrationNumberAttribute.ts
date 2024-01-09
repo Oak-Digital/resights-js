@@ -3,9 +3,8 @@
 /* tslint:disable */
 /* eslint-disable */
 export type CVRRegistrationNumberAttribute = {
-    valid_from?: string;
-    valid_to?: string;
-    last_updated?: string;
-    registration_number: string;
+  valid_from?: string;
+  valid_to?: string;
+  last_updated?: string;
+  registration_number: string;
 };
-

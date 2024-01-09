@@ -7,11 +7,10 @@ import type { AnalysisMetadataFilterModel } from './AnalysisMetadataFilterModel'
 import type { AnalysisSourceModel } from './AnalysisSourceModel';
 import type { AnalysisStatsMeasureResponse } from './AnalysisStatsMeasureResponse';
 export type AnalysisMetadataResponse = {
-    title: string;
-    table: string;
-    dimensions?: Array<AnalysisMetadataDimensionModel>;
-    measures?: Array<AnalysisStatsMeasureResponse>;
-    filters?: Array<AnalysisMetadataFilterModel>;
-    sources?: Array<AnalysisSourceModel>;
+  title: string;
+  table: string;
+  dimensions?: Array<AnalysisMetadataDimensionModel>;
+  measures?: Array<AnalysisStatsMeasureResponse>;
+  filters?: Array<AnalysisMetadataFilterModel>;
+  sources?: Array<AnalysisSourceModel>;
 };
-

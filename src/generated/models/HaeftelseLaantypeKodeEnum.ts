@@ -5,4 +5,7 @@
 /**
  * An enumeration.
  */
-export type HaeftelseLaantypeKodeEnum = 'Obligationslån' | 'Kontantlån' | 'Anden lånetype';
+export type HaeftelseLaantypeKodeEnum =
+  | 'Obligationslån'
+  | 'Kontantlån'
+  | 'Anden lånetype';

@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type SumAgg = {
-    field: string;
-    agg_type: 'sum';
-    missing?: number;
+  field: string;
+  agg_type: 'sum';
+  missing?: number;
 };
-

@@ -6,10 +6,9 @@ import type { CountryEnum } from './CountryEnum';
 import type { TransactionActorTypeEnum } from './TransactionActorTypeEnum';
 import type { TransactionSubsidiaryCreateModel } from './TransactionSubsidiaryCreateModel';
 export type TransactionActorCreateModel = {
-    name: string;
-    type?: TransactionActorTypeEnum;
-    country?: CountryEnum;
-    id: number;
-    subsidiaries?: Array<TransactionSubsidiaryCreateModel>;
+  name: string;
+  type?: TransactionActorTypeEnum;
+  country?: CountryEnum;
+  id: number;
+  subsidiaries?: Array<TransactionSubsidiaryCreateModel>;
 };
-

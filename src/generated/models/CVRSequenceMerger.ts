@@ -5,7 +5,6 @@
 import type { CVRSequenceMergerTypesEnum } from './CVRSequenceMergerTypesEnum';
 import type { CVRValueMerger } from './CVRValueMerger';
 export type CVRSequenceMerger = {
-    type: CVRSequenceMergerTypesEnum;
-    values: Array<CVRValueMerger>;
+  type: CVRSequenceMergerTypesEnum;
+  values: Array<CVRValueMerger>;
 };
-

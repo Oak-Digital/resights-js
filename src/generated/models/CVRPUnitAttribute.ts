@@ -3,9 +3,8 @@
 /* tslint:disable */
 /* eslint-disable */
 export type CVRPUnitAttribute = {
-    valid_from?: string;
-    valid_to?: string;
-    last_updated?: string;
-    p_number: number;
+  valid_from?: string;
+  valid_to?: string;
+  last_updated?: string;
+  p_number: number;
 };
-

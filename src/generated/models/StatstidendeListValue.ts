@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type StatstidendeListValue = {
-    public_key: string;
-    value: string;
-    sort_order: number;
+  public_key: string;
+  value: string;
+  sort_order: number;
 };
-

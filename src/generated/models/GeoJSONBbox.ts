@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type GeoJSONBbox = {
-    type?: string;
-    coordinates: Array<Array<number>>;
+  type?: string;
+  coordinates: Array<Array<number>>;
 };
-

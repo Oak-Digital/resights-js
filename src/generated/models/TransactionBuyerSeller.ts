@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type TransactionBuyerSeller = {
-    id: string;
-    share: number;
+  id: string;
+  share: number;
 };
-

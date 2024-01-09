@@ -5,4 +5,11 @@
 /**
  * An enumeration.
  */
-export type SkifteformKodeEnum = 'Uskiftet bo' | 'Privat skifte' | 'Forenklet privat skifte' | 'Forenklet privat skifte med efterlevende ægtefælle som eneste arving' | 'Udlæg til efterlevende ægtefælle' | 'Boudlæg' | 'Andet';
+export type SkifteformKodeEnum =
+  | 'Uskiftet bo'
+  | 'Privat skifte'
+  | 'Forenklet privat skifte'
+  | 'Forenklet privat skifte med efterlevende ægtefælle som eneste arving'
+  | 'Udlæg til efterlevende ægtefælle'
+  | 'Boudlæg'
+  | 'Andet';

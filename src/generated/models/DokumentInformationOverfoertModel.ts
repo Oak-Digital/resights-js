@@ -3,17 +3,16 @@
 /* tslint:disable */
 /* eslint-disable */
 export type DokumentInformationOverfoertModel = {
-    /**
-     * Beskrivelsen af dokumentypen
-     */
-    TypeBeskrivelse?: string;
-    /**
-     * DokumentNummer
-     */
-    Nummer?: string;
-    /**
-     * Dokumentets filnavn.
-     */
-    Filnavn?: string;
+  /**
+   * Beskrivelsen af dokumentypen
+   */
+  TypeBeskrivelse?: string;
+  /**
+   * DokumentNummer
+   */
+  Nummer?: string;
+  /**
+   * Dokumentets filnavn.
+   */
+  Filnavn?: string;
 };
-

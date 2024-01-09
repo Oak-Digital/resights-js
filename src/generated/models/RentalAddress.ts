@@ -5,18 +5,17 @@
 import type { AddressMatchCategoryEnum } from './AddressMatchCategoryEnum';
 import type { AddressTypeEnum } from './AddressTypeEnum';
 export type RentalAddress = {
-    id: string;
-    name: string;
-    type: AddressTypeEnum;
-    category: AddressMatchCategoryEnum;
-    street_name: string;
-    house_number: string;
-    floor?: string;
-    door?: string;
-    zip_code: number;
-    zip_name: string;
-    municipality_code?: number;
-    lng: number;
-    lat: number;
+  id: string;
+  name: string;
+  type: AddressTypeEnum;
+  category: AddressMatchCategoryEnum;
+  street_name: string;
+  house_number: string;
+  floor?: string;
+  door?: string;
+  zip_code: number;
+  zip_name: string;
+  municipality_code?: number;
+  lng: number;
+  lat: number;
 };
-

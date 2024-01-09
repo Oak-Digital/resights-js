@@ -4,8 +4,7 @@
 /* eslint-disable */
 import type { TimelineMemberTypeEnum } from './TimelineMemberTypeEnum';
 export type TimelineMember = {
-    id: number;
-    type: TimelineMemberTypeEnum;
-    name: string;
+  id: number;
+  type: TimelineMemberTypeEnum;
+  name: string;
 };
-

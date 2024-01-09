@@ -4,9 +4,8 @@
 /* eslint-disable */
 import type { EJFOwnerOtherResponse } from './EJFOwnerOtherResponse';
 export type ESResponseModel_EJFOwnerOtherResponse_ = {
-    total: number;
-    next_page: string;
-    results?: Array<EJFOwnerOtherResponse>;
-    aggregations?: Record<string, Record<string, any>>;
+  total: number;
+  next_page: string;
+  results?: Array<EJFOwnerOtherResponse>;
+  aggregations?: Record<string, Record<string, any>>;
 };
-

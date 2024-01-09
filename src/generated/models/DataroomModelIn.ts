@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type DataroomModelIn = {
-    user: string;
-    name: string;
-    type?: string;
+  user: string;
+  name: string;
+  type?: string;
 };
-

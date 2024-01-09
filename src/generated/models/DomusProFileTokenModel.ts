@@ -3,9 +3,8 @@
 /* tslint:disable */
 /* eslint-disable */
 export type DomusProFileTokenModel = {
-    token: string;
-    association_id: number;
-    filename: string;
-    file: string;
+  token: string;
+  association_id: number;
+  filename: string;
+  file: string;
 };
-

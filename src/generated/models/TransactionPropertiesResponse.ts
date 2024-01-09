@@ -5,8 +5,7 @@
 import type { TransactionPropertiesOverviewResponse } from './TransactionPropertiesOverviewResponse';
 import type { TransactionPropertiesValuationResponse } from './TransactionPropertiesValuationResponse';
 export type TransactionPropertiesResponse = {
-    bfe_number: number;
-    valuation?: TransactionPropertiesValuationResponse;
-    overview: TransactionPropertiesOverviewResponse;
+  bfe_number: number;
+  valuation?: TransactionPropertiesValuationResponse;
+  overview: TransactionPropertiesOverviewResponse;
 };
-

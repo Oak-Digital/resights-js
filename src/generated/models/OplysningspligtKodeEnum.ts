@@ -5,4 +5,7 @@
 /**
  * An enumeration.
  */
-export type OplysningspligtKodeEnum = 'Ikke omfattet' | 'Omfattet detaljer udleveret separat' | 'Omfattet med detaljer';
+export type OplysningspligtKodeEnum =
+  | 'Ikke omfattet'
+  | 'Omfattet detaljer udleveret separat'
+  | 'Omfattet med detaljer';

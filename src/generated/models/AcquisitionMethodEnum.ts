@@ -5,4 +5,11 @@
 /**
  * An enumeration.
  */
-export type AcquisitionMethodEnum = 'Almindelig fri handel' | 'Anden overdragelse' | 'Familieoverdragelse' | 'Ikke oplyst' | 'Interessesammenfald' | 'Mageskifte' | 'Almindelig fri handel særlige vilkår';
+export type AcquisitionMethodEnum =
+  | 'Almindelig fri handel'
+  | 'Anden overdragelse'
+  | 'Familieoverdragelse'
+  | 'Ikke oplyst'
+  | 'Interessesammenfald'
+  | 'Mageskifte'
+  | 'Almindelig fri handel særlige vilkår';

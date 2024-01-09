@@ -4,7 +4,6 @@
 /* eslint-disable */
 import type { TimelineEvent } from './TimelineEvent';
 export type TimelineDate = {
-    date: string;
-    events: Array<TimelineEvent>;
+  date: string;
+  events: Array<TimelineEvent>;
 };
-

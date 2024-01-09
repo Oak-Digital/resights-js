@@ -5,4 +5,10 @@
 /**
  * An enumeration.
  */
-export type DSTMeasureDST_ADDRESSESEnum = 'dst02_average' | 'dst04_average' | 'dst07_average' | 'dst08_average' | 'dst10_average' | 'number_households';
+export type DSTMeasureDST_ADDRESSESEnum =
+  | 'dst02_average'
+  | 'dst04_average'
+  | 'dst07_average'
+  | 'dst08_average'
+  | 'dst10_average'
+  | 'number_households';

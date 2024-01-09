@@ -5,4 +5,14 @@
 /**
  * An enumeration.
  */
-export type FieldTypeEnum = 'Boolean' | 'CprNumber' | 'CvrNumber' | 'Date' | 'List' | 'MultiLineText' | 'ReadonlyText' | 'StreetName' | 'Text' | 'ZipCode';
+export type FieldTypeEnum =
+  | 'Boolean'
+  | 'CprNumber'
+  | 'CvrNumber'
+  | 'Date'
+  | 'List'
+  | 'MultiLineText'
+  | 'ReadonlyText'
+  | 'StreetName'
+  | 'Text'
+  | 'ZipCode';

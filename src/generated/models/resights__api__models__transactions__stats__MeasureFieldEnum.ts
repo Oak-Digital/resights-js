@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type resights__api__models__transactions__stats__MeasureFieldEnum = 'area' | 'price' | 'sqm_price' | 'cap_rate';
+export type resights__api__models__transactions__stats__MeasureFieldEnum =
+  | 'area'
+  | 'price'
+  | 'sqm_price'
+  | 'cap_rate';

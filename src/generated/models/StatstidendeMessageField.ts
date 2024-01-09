@@ -4,10 +4,9 @@
 /* eslint-disable */
 import type { FieldTypeEnum } from './FieldTypeEnum';
 export type StatstidendeMessageField = {
-    public_key: string;
-    name: string;
-    value: string;
-    field_type: FieldTypeEnum;
-    has_value: boolean;
+  public_key: string;
+  name: string;
+  value: string;
+  field_type: FieldTypeEnum;
+  has_value: boolean;
 };
-

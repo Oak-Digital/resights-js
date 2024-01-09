@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type DomusProContaminationModel = {
-    contaminationExtentCode: string;
-    contaminationExtentInterpretation: string;
-    contaminationType: string;
+  contaminationExtentCode: string;
+  contaminationExtentInterpretation: string;
+  contaminationType: string;
 };
-

@@ -4,6 +4,5 @@
 /* eslint-disable */
 import type { DomusProFileTokenModel } from './DomusProFileTokenModel';
 export type DomusProFileResponse = {
-    files: Array<DomusProFileTokenModel>;
+  files: Array<DomusProFileTokenModel>;
 };
-

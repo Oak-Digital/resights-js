@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type CVRAttribute = {
-    valid_from?: string;
-    valid_to?: string;
-    last_updated?: string;
+  valid_from?: string;
+  valid_to?: string;
+  last_updated?: string;
 };
-

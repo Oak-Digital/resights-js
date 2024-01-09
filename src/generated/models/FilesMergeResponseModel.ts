@@ -3,10 +3,9 @@
 /* tslint:disable */
 /* eslint-disable */
 export type FilesMergeResponseModel = {
-    url?: string;
-    key: string;
-    pages?: number;
-    letters: number;
-    template_keys: Array<string>;
+  url?: string;
+  key: string;
+  pages?: number;
+  letters: number;
+  template_keys: Array<string>;
 };
-

@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type SearchPropertyArticleResponse = {
-    Id: string;
-    ReferenceName: string;
+  Id: string;
+  ReferenceName: string;
 };
-

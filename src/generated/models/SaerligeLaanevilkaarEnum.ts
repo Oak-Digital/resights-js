@@ -5,4 +5,12 @@
 /**
  * An enumeration.
  */
-export type SaerligeLaanevilkaarEnum = 'Mulighed for afdragsfrihed' | 'Stående lån' | 'Kontantlån' | 'Inkonvertibel' | 'Refinansiering' | 'Indeksregulering' | 'Rentetilpasning' | 'Opskrevet hovedstol';
+export type SaerligeLaanevilkaarEnum =
+  | 'Mulighed for afdragsfrihed'
+  | 'Stående lån'
+  | 'Kontantlån'
+  | 'Inkonvertibel'
+  | 'Refinansiering'
+  | 'Indeksregulering'
+  | 'Rentetilpasning'
+  | 'Opskrevet hovedstol';

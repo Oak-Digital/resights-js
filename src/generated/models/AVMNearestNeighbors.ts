@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type AVMNearestNeighbors = {
-    bfe_number: number;
-    address: string;
+  bfe_number: number;
+  address: string;
 };
-

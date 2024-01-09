@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type TestamenteTypeEnum = 'Indberetning testamente' | 'Indberetning codicil' | 'Indberetning børnetestamente' | 'Annullation testamente';
+export type TestamenteTypeEnum =
+  | 'Indberetning testamente'
+  | 'Indberetning codicil'
+  | 'Indberetning børnetestamente'
+  | 'Annullation testamente';

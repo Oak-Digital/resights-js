@@ -5,4 +5,7 @@
 /**
  * An enumeration.
  */
-export type BygningsforholdKodeEnum = 'Omfatter bygninger planlagt nedrevet' | 'Omfatter bygninger under opførelse' | 'Omfatter planlagte bygninger';
+export type BygningsforholdKodeEnum =
+  | 'Omfatter bygninger planlagt nedrevet'
+  | 'Omfatter bygninger under opførelse'
+  | 'Omfatter planlagte bygninger';

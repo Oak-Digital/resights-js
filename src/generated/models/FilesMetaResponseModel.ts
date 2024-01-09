@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type FilesMetaResponseModel = {
-    organisation_id?: string;
-    user_id?: string;
-    subfolder?: string;
+  organisation_id?: string;
+  user_id?: string;
+  subfolder?: string;
 };
-

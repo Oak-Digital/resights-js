@@ -5,4 +5,12 @@
 /**
  * An enumeration.
  */
-export type AdkomstTypeEnum = 'Skøde' | 'Ægtepagt' | 'Anden adkomst' | 'Auktionsskøde' | 'Bodelingsoverenskomst' | 'Ejendomsdom' | 'Skifteretsattest' | 'Betinget skøde';
+export type AdkomstTypeEnum =
+  | 'Skøde'
+  | 'Ægtepagt'
+  | 'Anden adkomst'
+  | 'Auktionsskøde'
+  | 'Bodelingsoverenskomst'
+  | 'Ejendomsdom'
+  | 'Skifteretsattest'
+  | 'Betinget skøde';

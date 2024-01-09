@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type TilbagebetalingsmaadeKodeEnum = 'Annuitetslån' | 'Serielån' | 'Stående lån' | 'Øvrige tilbagebetalingsvilkår';
+export type TilbagebetalingsmaadeKodeEnum =
+  | 'Annuitetslån'
+  | 'Serielån'
+  | 'Stående lån'
+  | 'Øvrige tilbagebetalingsvilkår';

@@ -5,4 +5,11 @@
 /**
  * An enumeration.
  */
-export type GeoJSONTypes = 'Point' | 'MultiPoint' | 'LineString' | 'MultiLineString' | 'Envelope' | 'Polygon' | 'Multipolygon';
+export type GeoJSONTypes =
+  | 'Point'
+  | 'MultiPoint'
+  | 'LineString'
+  | 'MultiLineString'
+  | 'Envelope'
+  | 'Polygon'
+  | 'Multipolygon';

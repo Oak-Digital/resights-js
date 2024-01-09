@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type MaxAgg = {
-    field: string;
-    agg_type: 'max';
-    missing?: number;
+  field: string;
+  agg_type: 'max';
+  missing?: number;
 };
-

@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type CVRUnitTypeEnum = 'VIRKSOMHED' | 'PERSON' | 'ANDEN_DELTAGER' | 'PRODUKTIONSENHED';
+export type CVRUnitTypeEnum =
+  | 'VIRKSOMHED'
+  | 'PERSON'
+  | 'ANDEN_DELTAGER'
+  | 'PRODUKTIONSENHED';

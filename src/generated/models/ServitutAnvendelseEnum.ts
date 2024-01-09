@@ -5,4 +5,16 @@
 /**
  * An enumeration.
  */
-export type ServitutAnvendelseEnum = 'Andet' | 'Anvendelsesforhold' | 'Byplanvedtægt' | 'Fredning' | 'Grundejerforening' | 'Hegn' | 'Højdebegrænsning' | 'Kondemnering' | 'Lokalplan' | 'Sanering' | 'Tilslutningspligt' | 'Udstykning';
+export type ServitutAnvendelseEnum =
+  | 'Andet'
+  | 'Anvendelsesforhold'
+  | 'Byplanvedtægt'
+  | 'Fredning'
+  | 'Grundejerforening'
+  | 'Hegn'
+  | 'Højdebegrænsning'
+  | 'Kondemnering'
+  | 'Lokalplan'
+  | 'Sanering'
+  | 'Tilslutningspligt'
+  | 'Udstykning';

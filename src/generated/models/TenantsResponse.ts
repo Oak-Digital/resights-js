@@ -5,7 +5,6 @@
 import type { TenantCompanyResponse } from './TenantCompanyResponse';
 import type { TenantPersonResponse } from './TenantPersonResponse';
 export type TenantsResponse = {
-    companies: Array<TenantCompanyResponse>;
-    persons: Array<TenantPersonResponse>;
+  companies: Array<TenantCompanyResponse>;
+  persons: Array<TenantPersonResponse>;
 };
-

@@ -4,9 +4,8 @@
 /* eslint-disable */
 import type { DataroomDocumentStateEnum } from './DataroomDocumentStateEnum';
 export type DataroomDocumentState = {
-    messages?: Array<string>;
-    document_states?: Record<string, DataroomDocumentStateEnum>;
-    document_ids?: Record<string, number>;
-    general_state?: DataroomDocumentStateEnum;
+  messages?: Array<string>;
+  document_states?: Record<string, DataroomDocumentStateEnum>;
+  document_ids?: Record<string, number>;
+  general_state?: DataroomDocumentStateEnum;
 };
-

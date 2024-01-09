@@ -5,4 +5,7 @@
 /**
  * An enumeration.
  */
-export type GIAccountTypeEnum = 'CalulationRates' | 'TechnicalInstallations' | 'AccountInformation';
+export type GIAccountTypeEnum =
+  | 'CalulationRates'
+  | 'TechnicalInstallations'
+  | 'AccountInformation';

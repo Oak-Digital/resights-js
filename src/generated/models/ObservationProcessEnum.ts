@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type ObservationProcessEnum = 'ADVERTISED' | 'MANUAL' | 'PROSPECTUS' | 'REPORTED';
+export type ObservationProcessEnum =
+  | 'ADVERTISED'
+  | 'MANUAL'
+  | 'PROSPECTUS'
+  | 'REPORTED';

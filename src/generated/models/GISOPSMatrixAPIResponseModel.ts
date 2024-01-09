@@ -3,9 +3,8 @@
 /* tslint:disable */
 /* eslint-disable */
 export type GISOPSMatrixAPIResponseModel = {
-    distance: number;
-    time: number;
-    from_index: number;
-    to_index: number;
+  distance: number;
+  time: number;
+  from_index: number;
+  to_index: number;
 };
-

@@ -3,13 +3,12 @@
 /* tslint:disable */
 /* eslint-disable */
 export type EmailModel = {
-    /**
-     * Email
-     */
-    Email: string;
-    /**
-     * Identifikation af eksternt sags nummer/referencenummer.
-     */
-    Sagsreference: string;
+  /**
+   * Email
+   */
+  Email: string;
+  /**
+   * Identifikation af eksternt sags nummer/referencenummer.
+   */
+  Sagsreference: string;
 };
-

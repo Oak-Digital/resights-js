@@ -4,8 +4,7 @@
 /* eslint-disable */
 import type { DataroomCategoryType } from './DataroomCategoryType';
 export type DataroomDocumentIn = {
-    parameters: Record<string, any>;
-    category: DataroomCategoryType;
-    holder: Array<string>;
+  parameters: Record<string, any>;
+  category: DataroomCategoryType;
+  holder: Array<string>;
 };
-

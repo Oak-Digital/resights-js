@@ -3,6 +3,5 @@
 /* tslint:disable */
 /* eslint-disable */
 export type TransactionComment = {
-    comment: string;
+  comment: string;
 };
-

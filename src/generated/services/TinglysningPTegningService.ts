@@ -5,49 +5,54 @@
 import type { CancelablePromise } from '../core/CancelablePromise';
 import type { BaseHttpRequest } from '../core/BaseHttpRequest';
 export class TinglysningPTegningService {
-    constructor(public readonly httpRequest: BaseHttpRequest) {}
+  constructor(public readonly httpRequest: BaseHttpRequest) {}
+  /**
+   * Get Paategninger By Alias Id
+   * @returns any Successful Response
+   * @throws ApiError
+   */
+  public getPaategningerByAliasId({
+    aliasId,
+    cancelled = false,
+  }: {
     /**
-     * Get Paategninger By Alias Id
-     * @param aliasId DokumentAliasIdentifikator
-     * @param cancelled
-     * @returns any Successful Response
-     * @throws ApiError
+     * DokumentAliasIdentifikator
      */
-    public getPaategningerByAliasId(
-        aliasId: string,
-        cancelled: boolean = false,
-    ): CancelablePromise<any> {
-        return this.httpRequest.request({
-            method: 'GET',
-            url: '/api/v2/tinglysning/paategning/aliasid/{alias_id}',
-            path: {
-                'alias_id': aliasId,
-            },
-            query: {
-                'cancelled': cancelled,
-            },
-        });
-    }
-    /**
-     * Get Paategninger By Uuid
-     * @param uuid
-     * @param cancelled
-     * @returns any Successful Response
-     * @throws ApiError
-     */
-    public getPaategningerByUuid(
-        uuid: string,
-        cancelled: boolean = false,
-    ): CancelablePromise<any> {
-        return this.httpRequest.request({
-            method: 'GET',
-            url: '/api/v2/tinglysning/paategning/uuid/{uuid}',
-            path: {
-                'uuid': uuid,
-            },
-            query: {
-                'cancelled': cancelled,
-            },
-        });
-    }
+    aliasId: string;
+    cancelled?: boolean;
+  }): CancelablePromise<any> {
+    return this.httpRequest.request({
+      method: 'GET',
+      url: '/api/v2/tinglysning/paategning/aliasid/{alias_id}',
+      path: {
+        alias_id: aliasId,
+      },
+      query: {
+        cancelled: cancelled,
+      },
+    });
+  }
+  /**
+   * Get Paategninger By Uuid
+   * @returns any Successful Response
+   * @throws ApiError
+   */
+  public getPaategningerByUuid({
+    uuid,
+    cancelled = false,
+  }: {
+    uuid: string;
+    cancelled?: boolean;
+  }): CancelablePromise<any> {
+    return this.httpRequest.request({
+      method: 'GET',
+      url: '/api/v2/tinglysning/paategning/uuid/{uuid}',
+      path: {
+        uuid: uuid,
+      },
+      query: {
+        cancelled: cancelled,
+      },
+    });
+  }
 }

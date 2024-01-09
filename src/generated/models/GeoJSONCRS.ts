@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type GeoJSONCRS = {
-    type?: string;
-    properties?: Record<string, string>;
+  type?: string;
+  properties?: Record<string, string>;
 };
-

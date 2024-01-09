@@ -5,8 +5,7 @@
 import type { GeoDistanceType } from './GeoDistanceType';
 import type { GeoPoint } from './GeoPoint';
 export type GeoDistanceValue = {
-    distance: string;
-    point: (GeoPoint | string);
-    distance_type?: GeoDistanceType;
+  distance: string;
+  point: GeoPoint | string;
+  distance_type?: GeoDistanceType;
 };
-

@@ -3,21 +3,20 @@
 /* tslint:disable */
 /* eslint-disable */
 export type DomusProCompanyModel = {
-    /**
-     * VirksomhedID
-     */
-    id: number;
-    /**
-     * CVRnr
-     */
-    cvr_number?: number;
-    /**
-     * Virksomhedsnavn
-     */
-    name: string;
-    /**
-     * Kommentar
-     */
-    comment_internal?: string;
+  /**
+   * VirksomhedID
+   */
+  id: number;
+  /**
+   * CVRnr
+   */
+  cvr_number?: number;
+  /**
+   * Virksomhedsnavn
+   */
+  name: string;
+  /**
+   * Kommentar
+   */
+  comment_internal?: string;
 };
-

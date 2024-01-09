@@ -5,4 +5,11 @@
 /**
  * An enumeration.
  */
-export type FinancialReportMimeTypeEnum = 'application/xml' | 'application/pdf' | 'image/tiff' | 'application/xhtml+xml' | 'application/octet-stream' | 'application/zip' | 'text/html';
+export type FinancialReportMimeTypeEnum =
+  | 'application/xml'
+  | 'application/pdf'
+  | 'image/tiff'
+  | 'application/xhtml+xml'
+  | 'application/octet-stream'
+  | 'application/zip'
+  | 'text/html';

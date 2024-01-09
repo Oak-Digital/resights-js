@@ -3,11 +3,10 @@
 /* tslint:disable */
 /* eslint-disable */
 export type DomusProAddressModel = {
-    streetName: string;
-    streetIdentifier: number;
-    streetBuildingIdentifier: string;
-    unpaddedStreetBuildingIdentifier: string;
-    zip: number;
-    city: string;
+  streetName: string;
+  streetIdentifier: number;
+  streetBuildingIdentifier: string;
+  unpaddedStreetBuildingIdentifier: string;
+  zip: number;
+  city: string;
 };
-

@@ -5,4 +5,7 @@
 /**
  * An enumeration.
  */
-export type CVR_P_UNITSMeasureCVR_P_UNITSEnum = 'count' | 'employees_month_erst.employees' | 'employees_month_erst.man_years';
+export type CVR_P_UNITSMeasureCVR_P_UNITSEnum =
+  | 'count'
+  | 'employees_month_erst.employees'
+  | 'employees_month_erst.man_years';

@@ -5,4 +5,11 @@
 /**
  * An enumeration.
  */
-export type DSTDimensionHFUDD16Enum = 'municipality_code' | 'highest_completed_education' | 'socioeconomic_status' | 'industry' | 'gender' | 'age' | 'period';
+export type DSTDimensionHFUDD16Enum =
+  | 'municipality_code'
+  | 'highest_completed_education'
+  | 'socioeconomic_status'
+  | 'industry'
+  | 'gender'
+  | 'age'
+  | 'period';

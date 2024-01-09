@@ -5,4 +5,12 @@
 /**
  * An enumeration.
  */
-export type CVRStatusTextEnum = 'Dekret' | 'Ophævelse af dekret' | 'Regnskab og boafslutning' | 'Andre meddelelser' | 'Indkaldelse til fordringsprøvelse' | 'Skiftesamling' | 'Åbning af forhandling' | 'Stadfæstelse';
+export type CVRStatusTextEnum =
+  | 'Dekret'
+  | 'Ophævelse af dekret'
+  | 'Regnskab og boafslutning'
+  | 'Andre meddelelser'
+  | 'Indkaldelse til fordringsprøvelse'
+  | 'Skiftesamling'
+  | 'Åbning af forhandling'
+  | 'Stadfæstelse';

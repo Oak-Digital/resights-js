@@ -10,10 +10,12 @@ import type { resights__api__query_dsl__query__SortOrder } from './resights__api
 import type { SumAgg } from './SumAgg';
 import type { ValueCountAgg } from './ValueCountAgg';
 export type TermsTemplate = {
-    template_name: 'terms';
-    field: string;
-    size?: number;
-    order?: Record<string, resights__api__query_dsl__query__SortOrder>;
-    aggs?: Record<string, (AvgAgg | MinAgg | MaxAgg | SumAgg | ValueCountAgg | PercentilesAgg)>;
+  template_name: 'terms';
+  field: string;
+  size?: number;
+  order?: Record<string, resights__api__query_dsl__query__SortOrder>;
+  aggs?: Record<
+    string,
+    AvgAgg | MinAgg | MaxAgg | SumAgg | ValueCountAgg | PercentilesAgg
+  >;
 };
-

@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type KursTypeEnum = 'Dagskurs' | 'Toldkurs' | 'Officiel middelkurs' | 'Sælgerkurs';
+export type KursTypeEnum =
+  | 'Dagskurs'
+  | 'Toldkurs'
+  | 'Officiel middelkurs'
+  | 'Sælgerkurs';

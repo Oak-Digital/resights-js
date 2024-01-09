@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type ErhvervsoejemedKodeEnum = 'Produktionsvirksomhed' | 'Forretningslokaler' | 'Udstykning' | 'Bebyggelse med videresalg for øje';
+export type ErhvervsoejemedKodeEnum =
+  | 'Produktionsvirksomhed'
+  | 'Forretningslokaler'
+  | 'Udstykning'
+  | 'Bebyggelse med videresalg for øje';

@@ -5,4 +5,10 @@
 /**
  * An enumeration.
  */
-export type HandelKodeEnum = 'Almindelig fri handel' | 'Almindelig fri handel særlige vilkår' | 'Familieoverdragelse' | 'Anden overdragelse' | 'Interessesammenfald sælger/køber' | 'Mageskifte';
+export type HandelKodeEnum =
+  | 'Almindelig fri handel'
+  | 'Almindelig fri handel særlige vilkår'
+  | 'Familieoverdragelse'
+  | 'Anden overdragelse'
+  | 'Interessesammenfald sælger/køber'
+  | 'Mageskifte';

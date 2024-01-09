@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type EconomicsProductModel = {
-    self?: string;
-    product_number: string;
+  self?: string;
+  product_number: string;
 };
-

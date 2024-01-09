@@ -5,4 +5,10 @@
 /**
  * An enumeration.
  */
-export type PersondokumentTypeEnum = 'Testamente' | 'Værgemål' | 'Ægtepagt' | 'Bosondring' | 'Rådighedsfratagelse' | 'Fremtidsfuldmagt';
+export type PersondokumentTypeEnum =
+  | 'Testamente'
+  | 'Værgemål'
+  | 'Ægtepagt'
+  | 'Bosondring'
+  | 'Rådighedsfratagelse'
+  | 'Fremtidsfuldmagt';

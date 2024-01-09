@@ -5,8 +5,7 @@
 import type { GeoJSON } from './GeoJSON';
 import type { GeoRelation } from './GeoRelation';
 export type GeoShapeQ = {
-    field: string;
-    value: GeoJSON;
-    relation?: GeoRelation;
+  field: string;
+  value: GeoJSON;
+  relation?: GeoRelation;
 };
-

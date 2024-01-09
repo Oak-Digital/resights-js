@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type FilesDefaultAddressModel = {
-    overlay: boolean;
-    name?: string;
-    att_name?: string;
+  overlay: boolean;
+  name?: string;
+  att_name?: string;
 };
-

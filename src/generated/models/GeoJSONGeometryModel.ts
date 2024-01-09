@@ -4,7 +4,6 @@
 /* eslint-disable */
 import type { GeoJSONCoordinateModel } from './GeoJSONCoordinateModel';
 export type GeoJSONGeometryModel = {
-    coordinates: GeoJSONCoordinateModel;
-    type: 'Point';
+  coordinates: GeoJSONCoordinateModel;
+  type: 'Point';
 };
-

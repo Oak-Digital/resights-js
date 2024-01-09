@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type CVR_P_UNITSDimensionCVR_P_UNITSEnum = 'status' | 'industry_text' | 'address_info.municipality_code' | 'address_info.zip_code';
+export type CVR_P_UNITSDimensionCVR_P_UNITSEnum =
+  | 'status'
+  | 'industry_text'
+  | 'address_info.municipality_code'
+  | 'address_info.zip_code';

@@ -5,4 +5,9 @@
 /**
  * An enumeration.
  */
-export type DSTDimensionFLY66Enum = 'age_interval' | 'gender' | 'municipality_code_from' | 'municipality_code_to' | 'period';
+export type DSTDimensionFLY66Enum =
+  | 'age_interval'
+  | 'gender'
+  | 'municipality_code_from'
+  | 'municipality_code_to'
+  | 'period';

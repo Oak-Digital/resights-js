@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type PaataleberettigetTypeEnum = 'UKENDT' | 'PERSON' | 'VIRKSOMHED' | 'EJENDOM';
+export type PaataleberettigetTypeEnum =
+  | 'UKENDT'
+  | 'PERSON'
+  | 'VIRKSOMHED'
+  | 'EJENDOM';

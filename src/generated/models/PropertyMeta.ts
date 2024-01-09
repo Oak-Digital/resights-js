@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type PropertyMeta = {
-    address_id?: string;
-    access_address_id?: string;
+  address_id?: string;
+  access_address_id?: string;
 };
-

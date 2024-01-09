@@ -4,12 +4,11 @@
 /* eslint-disable */
 import type { EconomicsVatZoneModel } from './EconomicsVatZoneModel';
 export type EconomicsRecipientModel = {
-    self?: string;
-    name: string;
-    address: string;
-    zip: string;
-    city: string;
-    country: string;
-    vat_zone?: EconomicsVatZoneModel;
+  self?: string;
+  name: string;
+  address: string;
+  zip: string;
+  city: string;
+  country: string;
+  vat_zone?: EconomicsVatZoneModel;
 };
-

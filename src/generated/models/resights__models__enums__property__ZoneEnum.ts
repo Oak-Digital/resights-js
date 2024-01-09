@@ -5,4 +5,7 @@
 /**
  * An enumeration.
  */
-export type resights__models__enums__property__ZoneEnum = 'Byzone' | 'Landzone' | 'Sommerhusområde';
+export type resights__models__enums__property__ZoneEnum =
+  | 'Byzone'
+  | 'Landzone'
+  | 'Sommerhusområde';

@@ -5,4 +5,9 @@
 /**
  * An enumeration.
  */
-export type TRANSACTIONSMeasureTRANSACTIONSEnum = 'count' | 'area.value' | 'price.value' | 'sqm_price.value' | 'cap_rate.value';
+export type TRANSACTIONSMeasureTRANSACTIONSEnum =
+  | 'count'
+  | 'area.value'
+  | 'price.value'
+  | 'sqm_price.value'
+  | 'cap_rate.value';

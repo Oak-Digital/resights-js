@@ -5,4 +5,9 @@
 /**
  * An enumeration.
  */
-export type HaeftelseBidragGrundlagEnum = 'Obligationsrestgæld' | 'Obligationshovedstol' | 'Lånerestgæld' | 'Hovedstol' | 'Ydelse';
+export type HaeftelseBidragGrundlagEnum =
+  | 'Obligationsrestgæld'
+  | 'Obligationshovedstol'
+  | 'Lånerestgæld'
+  | 'Hovedstol'
+  | 'Ydelse';

@@ -3,9 +3,8 @@
 /* tslint:disable */
 /* eslint-disable */
 export type Bound = {
-    lower?: number;
-    average?: number;
-    upper?: number;
-    total?: number;
+  lower?: number;
+  average?: number;
+  upper?: number;
+  total?: number;
 };
-

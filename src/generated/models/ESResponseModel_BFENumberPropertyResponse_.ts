@@ -4,9 +4,8 @@
 /* eslint-disable */
 import type { BFENumberPropertyResponse } from './BFENumberPropertyResponse';
 export type ESResponseModel_BFENumberPropertyResponse_ = {
-    total: number;
-    next_page: string;
-    results?: Array<BFENumberPropertyResponse>;
-    aggregations?: Record<string, Record<string, any>>;
+  total: number;
+  next_page: string;
+  results?: Array<BFENumberPropertyResponse>;
+  aggregations?: Record<string, Record<string, any>>;
 };
-

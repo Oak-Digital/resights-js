@@ -5,10 +5,9 @@
 import type { CompanyTradeEntity } from './CompanyTradeEntity';
 import type { CompanyTradeTarget } from './CompanyTradeTarget';
 export type CompanyTradeDetails = {
-    target: (CompanyTradeTarget | Array<CompanyTradeTarget>);
-    trade_date: string;
-    last_update: string;
-    sellers: Array<CompanyTradeEntity>;
-    buyers: Array<CompanyTradeEntity>;
+  target: CompanyTradeTarget | Array<CompanyTradeTarget>;
+  trade_date: string;
+  last_update: string;
+  sellers: Array<CompanyTradeEntity>;
+  buyers: Array<CompanyTradeEntity>;
 };
-

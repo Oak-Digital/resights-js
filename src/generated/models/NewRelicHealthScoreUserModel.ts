@@ -4,12 +4,11 @@
 /* eslint-disable */
 import type { NewRelicHealthScoreFieldModel } from './NewRelicHealthScoreFieldModel';
 export type NewRelicHealthScoreUserModel = {
-    id: string;
-    date: string;
-    user_id: string;
-    company_id?: string;
-    score_0_30_days: NewRelicHealthScoreFieldModel;
-    score_31_60_days: NewRelicHealthScoreFieldModel;
-    score_total: NewRelicHealthScoreFieldModel;
+  id: string;
+  date: string;
+  user_id: string;
+  company_id?: string;
+  score_0_30_days: NewRelicHealthScoreFieldModel;
+  score_31_60_days: NewRelicHealthScoreFieldModel;
+  score_total: NewRelicHealthScoreFieldModel;
 };
-

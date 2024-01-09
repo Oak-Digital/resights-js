@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type MATStatusEnum = 'GÆLDENDE' | 'FORELØBIG' | 'IKKE GENNEMFØRT' | 'HISTORISK';
+export type MATStatusEnum =
+  | 'GÆLDENDE'
+  | 'FORELØBIG'
+  | 'IKKE GENNEMFØRT'
+  | 'HISTORISK';

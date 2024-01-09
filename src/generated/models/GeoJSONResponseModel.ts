@@ -4,7 +4,6 @@
 /* eslint-disable */
 import type { GeoJSONFeatureModel } from './GeoJSONFeatureModel';
 export type GeoJSONResponseModel = {
-    type: 'FeatureCollection';
-    features: Array<GeoJSONFeatureModel>;
+  type: 'FeatureCollection';
+  features: Array<GeoJSONFeatureModel>;
 };
-

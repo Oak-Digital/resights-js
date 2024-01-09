@@ -3,9 +3,8 @@
 /* tslint:disable */
 /* eslint-disable */
 export type DomusProRatingFormatModel = {
-    type: string;
-    decimals?: number;
-    decimalSeparator?: string;
-    thousandsSeparator?: string;
+  type: string;
+  decimals?: number;
+  decimalSeparator?: string;
+  thousandsSeparator?: string;
 };
-

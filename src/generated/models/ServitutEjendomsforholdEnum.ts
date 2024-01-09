@@ -5,4 +5,9 @@
 /**
  * An enumeration.
  */
-export type ServitutEjendomsforholdEnum = 'Andet' | 'Byggeretligt skel' | 'Grundejerforening' | 'Hegn' | 'Udstykning';
+export type ServitutEjendomsforholdEnum =
+  | 'Andet'
+  | 'Byggeretligt skel'
+  | 'Grundejerforening'
+  | 'Hegn'
+  | 'Udstykning';

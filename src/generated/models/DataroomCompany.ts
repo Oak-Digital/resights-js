@@ -3,8 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type DataroomCompany = {
-    name: string;
-    org_nr: string;
-    country_iso: string;
+  name: string;
+  org_nr: string;
+  country_iso: string;
 };
-

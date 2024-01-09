@@ -4,9 +4,8 @@
 /* eslint-disable */
 import type { StatstidendeMessageTypeFieldAdvanced } from './StatstidendeMessageTypeFieldAdvanced';
 export type StatstidendeMessageTypeFieldgroupAdvanced = {
-    public_key: string;
-    name: string;
-    fields: Array<StatstidendeMessageTypeFieldAdvanced>;
-    max_occurrences: string;
+  public_key: string;
+  name: string;
+  fields: Array<StatstidendeMessageTypeFieldAdvanced>;
+  max_occurrences: string;
 };
-

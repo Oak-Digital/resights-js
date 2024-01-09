@@ -4,7 +4,8 @@
 /* eslint-disable */
 import type { CVRAddress } from './CVRAddress';
 import type { CVRUnitTypeEnum } from './CVRUnitTypeEnum';
-export type resights__models__tables__cvr__company__member_relation__CVRMember = {
+export type resights__models__tables__cvr__company__member_relation__CVRMember =
+  {
     unit_number: number;
     unit_type: CVRUnitTypeEnum;
     cvr_number?: number;
@@ -18,5 +19,4 @@ export type resights__models__tables__cvr__company__member_relation__CVRMember =
     postal_address?: CVRAddress;
     last_imported: string;
     last_updated?: string;
-};
-
+  };

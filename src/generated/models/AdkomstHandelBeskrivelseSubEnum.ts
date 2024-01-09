@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type AdkomstHandelBeskrivelseSubEnum = 'Pris hurtig handel' | 'Sælger kontrollerer køberselskab' | 'Køber kontrollerer sælgerselskab' | 'Koncernforbundne selskaber';
+export type AdkomstHandelBeskrivelseSubEnum =
+  | 'Pris hurtig handel'
+  | 'Sælger kontrollerer køberselskab'
+  | 'Køber kontrollerer sælgerselskab'
+  | 'Koncernforbundne selskaber';

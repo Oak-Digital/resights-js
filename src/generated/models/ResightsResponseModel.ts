@@ -4,9 +4,8 @@
 /* eslint-disable */
 import type { ResightsErrorModel } from './ResightsErrorModel';
 export type ResightsResponseModel = {
-    success: boolean;
-    status_code?: number;
-    message?: string;
-    errors: Array<ResightsErrorModel>;
+  success: boolean;
+  status_code?: number;
+  message?: string;
+  errors: Array<ResightsErrorModel>;
 };
-

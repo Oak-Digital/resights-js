@@ -5,4 +5,15 @@
 /**
  * An enumeration.
  */
-export type OwnershipCodeEnum = 10 | 20 | 30 | 40 | 41 | 50 | 60 | 70 | 80 | 90 | 99;
+export type OwnershipCodeEnum =
+  | 10
+  | 20
+  | 30
+  | 40
+  | 41
+  | 50
+  | 60
+  | 70
+  | 80
+  | 90
+  | 99;

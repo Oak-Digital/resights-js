@@ -5,4 +5,17 @@
 /**
  * An enumeration.
  */
-export type EjendomTypeEnum = 'Ejerlejlighed' | 'Anpart' | 'HovedejendomEjerlejligheder' | 'AnpartLejetGrund' | 'BygningLejetGrund' | 'BygningLejetGrundEjerlejligheder' | 'BygningLejetGrundAnparter' | 'Timeshare' | 'TimeshareUger' | 'HovedejendomTimeshare' | 'HovedejendomAnparter' | 'Grund' | 'EjerlejlighedBygningLejetGrund';
+export type EjendomTypeEnum =
+  | 'Ejerlejlighed'
+  | 'Anpart'
+  | 'HovedejendomEjerlejligheder'
+  | 'AnpartLejetGrund'
+  | 'BygningLejetGrund'
+  | 'BygningLejetGrundEjerlejligheder'
+  | 'BygningLejetGrundAnparter'
+  | 'Timeshare'
+  | 'TimeshareUger'
+  | 'HovedejendomTimeshare'
+  | 'HovedejendomAnparter'
+  | 'Grund'
+  | 'EjerlejlighedBygningLejetGrund';

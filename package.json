@@ -39,12 +39,18 @@
     "build": "unbuild",
     "dev": "unbuild --stub",
     "lint": "eslint .",
+    "format": "prettier --write .",
     "release": "bumpp && npm publish",
-    "generate-client": "openapi --input ./data/resights.openapi.json --output ./src/generated --name ResightsOpenAPI --useUnionTypes",
+    "generate-client": "openapi --input ./data/resights.openapi.json --output ./src/generated --name ResightsOpenAPI --useUnionTypes --useOptions",
     "start": "esno src/index.ts",
+    "cli": "esno src/cli/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
+  },
+  "dependencies": {
+    "@commander-js/extra-typings": "^11.1.0",
+    "commander": "^11.1.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.2",
@@ -55,6 +61,7 @@
     "lint-staged": "^15.2.0",
     "openapi-typescript-codegen": "^0.26.0",
     "pnpm": "^8.14.0",
+    "prettier": "^3.1.1",
     "rimraf": "^5.0.5",
     "simple-git-hooks": "^2.9.0",
     "typescript": "^5.3.3",

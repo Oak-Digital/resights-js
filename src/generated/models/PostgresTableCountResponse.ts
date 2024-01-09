@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type PostgresTableCountResponse = {
-    count: number;
-    table: string;
+  count: number;
+  table: string;
 };
-

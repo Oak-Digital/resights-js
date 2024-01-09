@@ -4,19 +4,18 @@
 /* eslint-disable */
 import type { LatestTradeTypeEnum } from './LatestTradeTypeEnum';
 export type TradeParametersArea = {
-    /**
-     * Short hand field for first available area. Generally `floor_area_br18` is preferred. However, for agricultural properties, `land_area` is used, while for condominiums `unit_area` is used.
-     */
-    area?: number;
-    /**
-     * The attribute that `area` is based on.
-     */
-    type?: LatestTradeTypeEnum;
-    land_area?: number;
-    floor_area_br18?: number;
-    byg038_area_building_total?: number;
-    tinglyst_area?: number;
-    unit_area?: number;
-    enh026_area_unit_total?: number;
+  /**
+   * Short hand field for first available area. Generally `floor_area_br18` is preferred. However, for agricultural properties, `land_area` is used, while for condominiums `unit_area` is used.
+   */
+  area?: number;
+  /**
+   * The attribute that `area` is based on.
+   */
+  type?: LatestTradeTypeEnum;
+  land_area?: number;
+  floor_area_br18?: number;
+  byg038_area_building_total?: number;
+  tinglyst_area?: number;
+  unit_area?: number;
+  enh026_area_unit_total?: number;
 };
-

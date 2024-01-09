@@ -5,12 +5,11 @@
 import type { CVRShare } from './CVRShare';
 import type { GraphNodeEnum } from './GraphNodeEnum';
 export type CVROwnershipNodeResponse = {
-    id: string;
-    name: string;
-    depth: number;
-    type: GraphNodeEnum;
-    active?: boolean;
-    real_share: CVRShare;
-    meta?: Record<string, any>;
+  id: string;
+  name: string;
+  depth: number;
+  type: GraphNodeEnum;
+  active?: boolean;
+  real_share: CVRShare;
+  meta?: Record<string, any>;
 };
-

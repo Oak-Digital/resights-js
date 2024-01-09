@@ -5,8 +5,7 @@
 import type { FinancialReportMimeTypeEnum } from './FinancialReportMimeTypeEnum';
 import type { FinancialReportTypeEnum } from './FinancialReportTypeEnum';
 export type ReportDocuments = {
-    type: FinancialReportTypeEnum;
-    mime_type: FinancialReportMimeTypeEnum;
-    url: string;
+  type: FinancialReportTypeEnum;
+  mime_type: FinancialReportMimeTypeEnum;
+  url: string;
 };
-

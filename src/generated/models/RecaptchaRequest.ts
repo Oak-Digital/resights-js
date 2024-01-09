@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type RecaptchaRequest = {
-    token: string;
-    email: string;
+  token: string;
+  email: string;
 };
-

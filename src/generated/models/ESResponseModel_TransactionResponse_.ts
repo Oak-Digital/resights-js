@@ -4,9 +4,8 @@
 /* eslint-disable */
 import type { TransactionResponse } from './TransactionResponse';
 export type ESResponseModel_TransactionResponse_ = {
-    total: number;
-    next_page: string;
-    results?: Array<TransactionResponse>;
-    aggregations?: Record<string, Record<string, any>>;
+  total: number;
+  next_page: string;
+  results?: Array<TransactionResponse>;
+  aggregations?: Record<string, Record<string, any>>;
 };
-

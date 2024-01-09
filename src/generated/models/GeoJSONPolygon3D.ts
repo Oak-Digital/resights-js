@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type GeoJSONPolygon3D = {
-    type?: string;
-    coordinates: Array<Array<Array<number>>>;
+  type?: string;
+  coordinates: Array<Array<Array<number>>>;
 };
-

@@ -6,12 +6,11 @@ import type { DomusProRatingDescriptionModel } from './DomusProRatingDescription
 import type { DomusProRatingFormatModel } from './DomusProRatingFormatModel';
 import type { DomusProValueExplanationModel } from './DomusProValueExplanationModel';
 export type DomusProRatingResponse = {
-    label: string;
-    field: string;
-    valueExplanation?: DomusProValueExplanationModel;
-    description: DomusProRatingDescriptionModel;
-    showValue: boolean;
-    format?: DomusProRatingFormatModel;
-    configurations: Record<string, any>;
+  label: string;
+  field: string;
+  valueExplanation?: DomusProValueExplanationModel;
+  description: DomusProRatingDescriptionModel;
+  showValue: boolean;
+  format?: DomusProRatingFormatModel;
+  configurations: Record<string, any>;
 };
-

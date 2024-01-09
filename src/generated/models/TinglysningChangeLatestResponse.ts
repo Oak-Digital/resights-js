@@ -3,6 +3,5 @@
 /* tslint:disable */
 /* eslint-disable */
 export type TinglysningChangeLatestResponse = {
-    change_date: string;
+  change_date: string;
 };
-

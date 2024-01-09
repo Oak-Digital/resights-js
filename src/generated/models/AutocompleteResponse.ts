@@ -5,7 +5,6 @@
 import type { AutocompleteResult } from './AutocompleteResult';
 import type { AutocompleteTypeEnum } from './AutocompleteTypeEnum';
 export type AutocompleteResponse = {
-    results: Array<AutocompleteResult>;
-    type_order: Array<AutocompleteTypeEnum>;
+  results: Array<AutocompleteResult>;
+  type_order: Array<AutocompleteTypeEnum>;
 };
-

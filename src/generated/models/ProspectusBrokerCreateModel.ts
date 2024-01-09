@@ -3,9 +3,8 @@
 /* tslint:disable */
 /* eslint-disable */
 export type ProspectusBrokerCreateModel = {
-    name: string;
-    email: string;
-    phone_number: string;
-    company_name: string;
+  name: string;
+  email: string;
+  phone_number: string;
+  company_name: string;
 };
-

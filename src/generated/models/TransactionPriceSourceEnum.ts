@@ -5,4 +5,11 @@
 /**
  * An enumeration.
  */
-export type TransactionPriceSourceEnum = 'ANNUAL_REPORT' | 'BUYER_SELLER' | 'MEDIA' | 'PREVIOUS_TRADES' | 'SIMILAR_TRADES' | 'TINGLYSNING' | 'VALUATION';
+export type TransactionPriceSourceEnum =
+  | 'ANNUAL_REPORT'
+  | 'BUYER_SELLER'
+  | 'MEDIA'
+  | 'PREVIOUS_TRADES'
+  | 'SIMILAR_TRADES'
+  | 'TINGLYSNING'
+  | 'VALUATION';

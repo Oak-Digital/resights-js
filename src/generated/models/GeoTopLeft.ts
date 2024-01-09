@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type GeoTopLeft = {
-    minLon: number;
-    maxLat: number;
+  minLon: number;
+  maxLat: number;
 };
-

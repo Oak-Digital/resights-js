@@ -5,4 +5,8 @@
 /**
  * An enumeration.
  */
-export type ServitutAndetEnum = 'Andet' | 'Ikke kategoriseret' | 'Kreditorbeskyttelse' | 'Vandløb';
+export type ServitutAndetEnum =
+  | 'Andet'
+  | 'Ikke kategoriseret'
+  | 'Kreditorbeskyttelse'
+  | 'Vandløb';

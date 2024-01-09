@@ -3,10 +3,9 @@
 /* tslint:disable */
 /* eslint-disable */
 export type CVRContactInfoAttribute = {
-    valid_from?: string;
-    valid_to?: string;
-    last_updated?: string;
-    secret: boolean;
-    contact_info?: string;
+  valid_from?: string;
+  valid_to?: string;
+  last_updated?: string;
+  secret: boolean;
+  contact_info?: string;
 };
-

@@ -10,10 +10,45 @@ import type { MatchQ } from './MatchQ';
 import type { RangeQ } from './RangeQ';
 import type { TermsQ } from './TermsQ';
 export type BooleanQueryNode = {
-    and?: Array<(GeoShapeQ | TermsQ | MatchQ | RangeQ | ExistsQ | GeoDistanceQ | GeoBBoxQ | BooleanQueryNode)>;
-    or?: Array<(GeoShapeQ | TermsQ | MatchQ | RangeQ | ExistsQ | GeoDistanceQ | GeoBBoxQ | BooleanQueryNode)>;
-    not?: Array<(GeoShapeQ | TermsQ | MatchQ | RangeQ | ExistsQ | GeoDistanceQ | GeoBBoxQ | BooleanQueryNode)>;
-    and_filter?: Array<(GeoShapeQ | TermsQ | MatchQ | RangeQ | ExistsQ | GeoDistanceQ | GeoBBoxQ | BooleanQueryNode)>;
-    minimum_should_match?: number;
+  and?: Array<
+    | GeoShapeQ
+    | TermsQ
+    | MatchQ
+    | RangeQ
+    | ExistsQ
+    | GeoDistanceQ
+    | GeoBBoxQ
+    | BooleanQueryNode
+  >;
+  or?: Array<
+    | GeoShapeQ
+    | TermsQ
+    | MatchQ
+    | RangeQ
+    | ExistsQ
+    | GeoDistanceQ
+    | GeoBBoxQ
+    | BooleanQueryNode
+  >;
+  not?: Array<
+    | GeoShapeQ
+    | TermsQ
+    | MatchQ
+    | RangeQ
+    | ExistsQ
+    | GeoDistanceQ
+    | GeoBBoxQ
+    | BooleanQueryNode
+  >;
+  and_filter?: Array<
+    | GeoShapeQ
+    | TermsQ
+    | MatchQ
+    | RangeQ
+    | ExistsQ
+    | GeoDistanceQ
+    | GeoBBoxQ
+    | BooleanQueryNode
+  >;
+  minimum_should_match?: number;
 };
-

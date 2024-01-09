@@ -6,9 +6,8 @@ import type { CVRSequenceMemberRelationTypesEnum } from './CVRSequenceMemberRela
 import type { CVRSequenceValueTypesEnum } from './CVRSequenceValueTypesEnum';
 import type { CVRValueAttribute } from './CVRValueAttribute';
 export type CVRSequenceMemberRelations = {
-    type: CVRSequenceMemberRelationTypesEnum;
-    sequence_number: number;
-    value_type: CVRSequenceValueTypesEnum;
-    values: Array<CVRValueAttribute>;
+  type: CVRSequenceMemberRelationTypesEnum;
+  sequence_number: number;
+  value_type: CVRSequenceValueTypesEnum;
+  values: Array<CVRValueAttribute>;
 };
-

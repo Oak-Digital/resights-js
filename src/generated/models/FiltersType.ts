@@ -5,4 +5,9 @@
 /**
  * An enumeration.
  */
-export type FiltersType = 'company' | 'property' | 'listings' | 'rental' | 'transactions';
+export type FiltersType =
+  | 'company'
+  | 'property'
+  | 'listings'
+  | 'rental'
+  | 'transactions';

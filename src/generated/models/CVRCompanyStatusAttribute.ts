@@ -4,9 +4,8 @@
 /* eslint-disable */
 import type { CVRCompanyStatusEnum } from './CVRCompanyStatusEnum';
 export type CVRCompanyStatusAttribute = {
-    valid_from?: string;
-    valid_to?: string;
-    last_updated?: string;
-    status: CVRCompanyStatusEnum;
+  valid_from?: string;
+  valid_to?: string;
+  last_updated?: string;
+  status: CVRCompanyStatusEnum;
 };
-

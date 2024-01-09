@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type CVREmployeeStats = {
-    employees?: number;
-    man_years?: number;
+  employees?: number;
+  man_years?: number;
 };
-

@@ -5,4 +5,14 @@
 /**
  * An enumeration.
  */
-export type ListingsUnitTypeEnum = 'Villa' | 'Villalejlighed' | 'Ejerlejlighed' | 'Rækkehus' | 'Fritidsbolig' | 'Andelsbolig' | 'Landejendom' | 'Lystejendom' | 'Helårsgrund' | 'Fritidsgrund';
+export type ListingsUnitTypeEnum =
+  | 'Villa'
+  | 'Villalejlighed'
+  | 'Ejerlejlighed'
+  | 'Rækkehus'
+  | 'Fritidsbolig'
+  | 'Andelsbolig'
+  | 'Landejendom'
+  | 'Lystejendom'
+  | 'Helårsgrund'
+  | 'Fritidsgrund';

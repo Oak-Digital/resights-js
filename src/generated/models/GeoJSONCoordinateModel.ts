@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type GeoJSONCoordinateModel = {
-    lon: number;
-    lat: number;
+  lon: number;
+  lat: number;
 };
-

@@ -4,13 +4,12 @@
 /* eslint-disable */
 import type { RefinansieringEnum } from './RefinansieringEnum';
 export type AfdragsfrihedModel = {
-    /**
-     * Her angives om afdragsfrihed er aftalt eller muligt.
-     */
-    Indikator: RefinansieringEnum;
-    /**
-     * MaksimaltAntalMaaneder
-     */
-    MaksimaltAntalMaaneder?: number;
+  /**
+   * Her angives om afdragsfrihed er aftalt eller muligt.
+   */
+  Indikator: RefinansieringEnum;
+  /**
+   * MaksimaltAntalMaaneder
+   */
+  MaksimaltAntalMaaneder?: number;
 };
-

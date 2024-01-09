@@ -8,25 +8,32 @@ import type { SubareaPlan } from '../models/SubareaPlan';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import type { BaseHttpRequest } from '../core/BaseHttpRequest';
 export class PlandataService {
-    constructor(public readonly httpRequest: BaseHttpRequest) {}
+  constructor(public readonly httpRequest: BaseHttpRequest) {}
+  /**
+   * Get Plandata
+   * @returns any Successful Response
+   * @throws ApiError
+   */
+  public getPlandata({
+    landId,
+    bfeNumber,
+  }: {
     /**
-     * Get Plandata
-     * @param landId LandID of a cadastre
-     * @param bfeNumber BFE-number of a property
-     * @returns any Successful Response
-     * @throws ApiError
+     * LandID of a cadastre
      */
-    public getPlandata(
-        landId?: number,
-        bfeNumber?: number,
-    ): CancelablePromise<Array<(SubareaPlan | LocalPlan | MunicipalityPlan)>> {
-        return this.httpRequest.request({
-            method: 'GET',
-            url: '/api/v2/plandata',
-            query: {
-                'land_id': landId,
-                'bfe_number': bfeNumber,
-            },
-        });
-    }
+    landId?: number;
+    /**
+     * BFE-number of a property
+     */
+    bfeNumber?: number;
+  }): CancelablePromise<Array<SubareaPlan | LocalPlan | MunicipalityPlan>> {
+    return this.httpRequest.request({
+      method: 'GET',
+      url: '/api/v2/plandata',
+      query: {
+        land_id: landId,
+        bfe_number: bfeNumber,
+      },
+    });
+  }
 }

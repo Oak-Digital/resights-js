@@ -5,4 +5,15 @@
 /**
  * An enumeration.
  */
-export type PantsaetningsforbudTypeEnum = 'Løsøre' | 'Simple fordringer' | 'Lagre af råvarer og halvfabrikata færdigvarer' | 'Motorkøretøjer' | 'Driftsinventar og driftsmateriel' | 'Drivmidler og andre hjælpestoffer' | 'Besætning' | 'Goodwill' | 'Fordringspant' | 'Virksomhedspant fra lejede lokaler' | 'Motorkøretøjer erhvervsvirksomhed';
+export type PantsaetningsforbudTypeEnum =
+  | 'Løsøre'
+  | 'Simple fordringer'
+  | 'Lagre af råvarer og halvfabrikata færdigvarer'
+  | 'Motorkøretøjer'
+  | 'Driftsinventar og driftsmateriel'
+  | 'Drivmidler og andre hjælpestoffer'
+  | 'Besætning'
+  | 'Goodwill'
+  | 'Fordringspant'
+  | 'Virksomhedspant fra lejede lokaler'
+  | 'Motorkøretøjer erhvervsvirksomhed';

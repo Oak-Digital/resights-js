@@ -4,9 +4,8 @@
 /* eslint-disable */
 import type { PortfolioTradeResponse } from './PortfolioTradeResponse';
 export type GenericPageResponseModel_PortfolioTradeResponse_ = {
-    total: number;
-    offset: number;
-    size: number;
-    results?: Array<PortfolioTradeResponse>;
+  total: number;
+  offset: number;
+  size: number;
+  results?: Array<PortfolioTradeResponse>;
 };
-

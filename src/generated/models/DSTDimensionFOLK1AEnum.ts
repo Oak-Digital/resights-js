@@ -5,4 +5,9 @@
 /**
  * An enumeration.
  */
-export type DSTDimensionFOLK1AEnum = 'age_interval' | 'civil_status' | 'gender' | 'municipality_code' | 'period';
+export type DSTDimensionFOLK1AEnum =
+  | 'age_interval'
+  | 'civil_status'
+  | 'gender'
+  | 'municipality_code'
+  | 'period';

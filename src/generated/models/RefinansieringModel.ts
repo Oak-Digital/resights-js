@@ -4,17 +4,16 @@
 /* eslint-disable */
 import type { RefinansieringEnum } from './RefinansieringEnum';
 export type RefinansieringModel = {
-    /**
-     * Her angives om refinansiering er aftalt eller muligt.
-     */
-    RefinansieringIndikator: RefinansieringEnum;
-    /**
-     * Angiver normal intervallet i maaneder hvorefter refinansiering foretages.
-     */
-    IntervalMaaneder?: number;
-    /**
-     * Første refinansiering år måned
-     */
-    FoersteRefinansieringAarMaaned?: string;
+  /**
+   * Her angives om refinansiering er aftalt eller muligt.
+   */
+  RefinansieringIndikator: RefinansieringEnum;
+  /**
+   * Angiver normal intervallet i maaneder hvorefter refinansiering foretages.
+   */
+  IntervalMaaneder?: number;
+  /**
+   * Første refinansiering år måned
+   */
+  FoersteRefinansieringAarMaaned?: string;
 };
-

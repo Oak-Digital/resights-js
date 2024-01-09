@@ -4,8 +4,7 @@
 /* eslint-disable */
 import type { GIAccountTypeEnum } from './GIAccountTypeEnum';
 export type GIAccountResponse = {
-    type: GIAccountTypeEnum;
-    name: string;
-    href: string;
+  type: GIAccountTypeEnum;
+  name: string;
+  href: string;
 };
-

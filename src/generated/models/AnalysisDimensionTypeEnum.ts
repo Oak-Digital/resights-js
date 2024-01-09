@@ -5,4 +5,11 @@
 /**
  * An enumeration.
  */
-export type AnalysisDimensionTypeEnum = 'AUTOCOMPLETE' | 'CATEGORICAL' | 'CONTINUOUS' | 'DATE' | 'DATETIME' | 'GEOGRAPHIC' | 'YEAR';
+export type AnalysisDimensionTypeEnum =
+  | 'AUTOCOMPLETE'
+  | 'CATEGORICAL'
+  | 'CONTINUOUS'
+  | 'DATE'
+  | 'DATETIME'
+  | 'GEOGRAPHIC'
+  | 'YEAR';

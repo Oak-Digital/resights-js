@@ -5,4 +5,14 @@
 /**
  * An enumeration.
  */
-export type MeddelelseTypeTekstEnum = 'Bobestyrer' | 'Dødsfald' | 'Gældssanering' | 'Konkurs' | 'Rådighedsfratagelse iht. konkursloven' | 'Konfiskation' | 'Tvangsakkord' | 'Beslaglæggelse' | 'Rådighedsfratagelse iht. skifteloven' | 'Pantsætningsforbud';
+export type MeddelelseTypeTekstEnum =
+  | 'Bobestyrer'
+  | 'Dødsfald'
+  | 'Gældssanering'
+  | 'Konkurs'
+  | 'Rådighedsfratagelse iht. konkursloven'
+  | 'Konfiskation'
+  | 'Tvangsakkord'
+  | 'Beslaglæggelse'
+  | 'Rådighedsfratagelse iht. skifteloven'
+  | 'Pantsætningsforbud';

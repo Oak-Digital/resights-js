@@ -5,10 +5,9 @@
 import type { CVRUnitTypeEnum } from './CVRUnitTypeEnum';
 import type { CVRValueAttribute } from './CVRValueAttribute';
 export type CVRKeyRelation = {
-    unit_number?: number;
-    cvr_number?: number;
-    unit_type?: CVRUnitTypeEnum;
-    name?: string;
-    function?: CVRValueAttribute;
+  unit_number?: number;
+  cvr_number?: number;
+  unit_type?: CVRUnitTypeEnum;
+  name?: string;
+  function?: CVRValueAttribute;
 };
-

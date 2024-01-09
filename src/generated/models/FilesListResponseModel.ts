@@ -4,12 +4,11 @@
 /* eslint-disable */
 import type { FilesMetaResponseModel } from './FilesMetaResponseModel';
 export type FilesListResponseModel = {
-    Key: string;
-    LastModified: string;
-    ETag: string;
-    Size: number;
-    StorageClass: string;
-    Meta: FilesMetaResponseModel;
-    url?: string;
+  Key: string;
+  LastModified: string;
+  ETag: string;
+  Size: number;
+  StorageClass: string;
+  Meta: FilesMetaResponseModel;
+  url?: string;
 };
-

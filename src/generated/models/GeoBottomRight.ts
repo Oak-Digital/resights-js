@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type GeoBottomRight = {
-    maxLon: number;
-    minLat: number;
+  maxLon: number;
+  minLat: number;
 };
-

@@ -6,8 +6,7 @@ import type { CVROffice } from './CVROffice';
 import type { CVROrganisation } from './CVROrganisation';
 import type { resights__models__tables__cvr__company__member_relation__CVRMember } from './resights__models__tables__cvr__company__member_relation__CVRMember';
 export type CVRMemberRelation = {
-    member?: resights__models__tables__cvr__company__member_relation__CVRMember;
-    offices: Array<CVROffice>;
-    organisations: Array<CVROrganisation>;
+  member?: resights__models__tables__cvr__company__member_relation__CVRMember;
+  offices: Array<CVROffice>;
+  organisations: Array<CVROrganisation>;
 };
-

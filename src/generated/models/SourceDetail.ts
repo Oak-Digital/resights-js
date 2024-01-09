@@ -3,7 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type SourceDetail = {
-    includes?: Array<string>;
-    excludes?: Array<string>;
+  includes?: Array<string>;
+  excludes?: Array<string>;
 };
-

@@ -6,9 +6,8 @@ import type { CVRSequencePUnitAttributesTypesEnum } from './CVRSequencePUnitAttr
 import type { CVRSequenceValueTypesEnum } from './CVRSequenceValueTypesEnum';
 import type { CVRValueAttribute } from './CVRValueAttribute';
 export type CVRSequencePUnitAttributes = {
-    type: CVRSequencePUnitAttributesTypesEnum;
-    sequence_number: number;
-    value_type: CVRSequenceValueTypesEnum;
-    values: Array<CVRValueAttribute>;
+  type: CVRSequencePUnitAttributesTypesEnum;
+  sequence_number: number;
+  value_type: CVRSequenceValueTypesEnum;
+  values: Array<CVRValueAttribute>;
 };
-
