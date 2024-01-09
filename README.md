@@ -8,6 +8,26 @@
 
 A Typescript/Javascript library for the [Resights API](https://api.resights.dk)
 
+## Install
+
+```bash
+pnpm install @oak-digital/resights-js
+```
+
+## Usage
+
+To use this library you need to [obtain a resights API token](https://api.resights.dk/docs#/%F0%9F%94%91%20Token/token). In this example you need to replace the `RESIGHTS_API_TOKEN` with your actual token.
+
+```ts
+import { Resights } from '@oak-digital/resights-js'
+
+const client = new Resights(RESIGHTS_API_TOKEN)
+```
+
+## Docs
+
+You can find online docs through [tsdocs.dev](https://tsdocs.dev/search/docs/@oak-digital/resights-js) or [jsdocs.io](https://www.jsdocs.io/package/@oak-digital/resights-js)
+
 ## License
 
 [MIT](./LICENSE) License © 2023-PRESENT [Anthony Fu](https://github.com/antfu)
