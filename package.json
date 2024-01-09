@@ -40,7 +40,7 @@
     "dev": "unbuild --stub",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "release": "bumpp && npm publish",
+    "release": "bumpp",
     "generate-client": "openapi --input ./data/resights.openapi.json --output ./src/generated --name ResightsOpenAPI --useUnionTypes --useOptions",
     "start": "esno src/index.ts",
     "cli": "esno src/cli/index.ts",
